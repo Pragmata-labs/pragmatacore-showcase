@@ -30,7 +30,7 @@ final class TouchPanelObserver {
             self?.setupController()
         }
         // Also try immediately in case controller is already connected
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { [weak self] in
             self?.setupController()
         }
     }
