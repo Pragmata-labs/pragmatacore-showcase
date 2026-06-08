@@ -19,6 +19,7 @@ final class TouchPanelObserver {
     var onClicked: (() -> Void)?
 
     private var isTouching = false
+    private var isSetup = false
 
     init() {
         NotificationCenter.default.addObserver(
@@ -35,10 +36,11 @@ final class TouchPanelObserver {
     }
 
     private func setupController() {
-        guard let gc = GCController.controllers().first else {
-            AppLog.log("Remote", "No controller found")
+        guard !isSetup, let gc = GCController.controllers().first else {
+            if GCController.controllers().isEmpty { AppLog.log("Remote", "No controller found") }
             return
         }
+        isSetup = true
         
         if let pad = gc.extendedGamepad {
             AppLog.log("Remote", "Extended gamepad found")
