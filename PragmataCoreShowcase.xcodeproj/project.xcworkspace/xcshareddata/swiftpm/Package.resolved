@@ -1,0 +1,15 @@
+{
+  "originHash" : "e3d7b85cdb4560bca06b6603213e3867a3cbc4b34f2bed27872b97e0fd8fff2e",
+  "pins" : [
+    {
+      "identity" : "pragmatacore-showcase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Pragmata-labs/pragmatacore-showcase",
+      "state" : {
+        "revision" : "4f507860ed27adb35cf273b5e106da281b50b009",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1242,6 +1242,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 			};
@@ -1272,6 +1273,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1298,6 +1300,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1327,6 +1330,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 			};
@@ -1356,6 +1360,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1440,6 +1445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
+				PRODUCT_NAME = "Pragmata Industries";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
