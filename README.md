@@ -1,7 +1,7 @@
 # PragmataCore Showcase
 
 > Cross-platform real-time 3D configurator built on a proprietary C++ engine with Google Filament.
-> iOS · iPadOS · tvOS · macOS · Android (in progress)
+> iPadOS · tvOS · macOS · Android (in progress)
 
 ---
 
@@ -50,7 +50,7 @@ Google Filament → Metal (Apple) / Vulkan (Android)
 | Platform | Status |
 |---|---|
 | macOS 15+ (Apple Silicon only) | ✅ |
-| iOS 17+ / iPadOS 17+ | ✅ |
+| iPadOS 17+ | ✅ |
 | tvOS 17+ | ✅ |
 | Android | 🔄 In progress |
 
@@ -75,7 +75,7 @@ xcodegen generate
 open PragmataCoreShowcase.xcodeproj
 ```
 
-Select a scheme (`Showcase-macOS`, `Showcase-iOS`, `Showcase-tvOS`) and run.
+Select a scheme (`Showcase-macOS`, `Showcase-iPadOS`, `Showcase-tvOS`) and run.
 
 The `PragmataCore.xcframework` is resolved automatically via Swift Package Manager on first build.
 
