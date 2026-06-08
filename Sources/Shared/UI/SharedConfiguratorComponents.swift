@@ -194,6 +194,7 @@ struct SelectionMenuOverlay: View {
                             .focused($focusedChoice, equals: choice)
                             .onTapGesture { selectedChoice = choice; onDismiss() }
 #else
+                            .onTapGesture { selectedChoice = choice; onDismiss() }
                             .configuratorButtonStyle()
                             .focused($focusedChoice, equals: choice)
                             .macHoverOutline(cornerRadius: 15)
@@ -208,6 +209,7 @@ struct SelectionMenuOverlay: View {
                     .focused($isBackFocused)
                     .onTapGesture { onDismiss() }
 #else
+                    .onTapGesture { onDismiss() }
                     .configuratorButtonStyle()
                     .focused($isBackFocused)
                     .macHoverOutline(cornerRadius: 15)
