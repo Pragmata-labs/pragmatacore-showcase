@@ -1,0 +1,50 @@
+ASSETS LICENSE
+Copyright (c) 2026 Marko Fucek — PragmataCore
+All Rights Reserved
+
+This license governs the use of all 3D models, textures, materials, and
+associated asset files included in this repository (including but not limited
+to PCraft400.glb and related files).
+
+-------------------------------------------------------------------------------
+PERMITTED USE
+-------------------------------------------------------------------------------
+
+You may:
+  - Clone this repository and build the showcase application for personal,
+    educational, or evaluation purposes.
+  - Run the compiled application on your own devices.
+  - Reference screenshots or recordings of the running application for
+    editorial, academic, or portfolio purposes with attribution.
+
+-------------------------------------------------------------------------------
+PROHIBITED USE
+-------------------------------------------------------------------------------
+
+Without prior written agreement from the copyright holder, you may NOT:
+  - Extract, copy, or redistribute any 3D model, texture, or asset file.
+  - Use any asset in a commercial product, service, or publication.
+  - Modify, adapt, or create derivative works from any asset.
+  - Use any asset in machine learning training datasets or generative AI
+    pipelines.
+  - Sublicense or transfer rights to any asset to a third party.
+
+-------------------------------------------------------------------------------
+COMMERCIAL LICENSING
+-------------------------------------------------------------------------------
+
+If you intend to use these assets beyond the permitted scope above — including
+integration into a product, deployment in a client project, or any commercial
+application — contact the copyright holder to discuss licensing terms:
+
+  Marko Fucek
+  markfuce@gmail.com
+
+-------------------------------------------------------------------------------
+DISCLAIMER
+-------------------------------------------------------------------------------
+
+These assets are provided as-is for demonstration purposes only.
+The copyright holder makes no warranties regarding fitness for any particular
+purpose. Unauthorized use may constitute copyright infringement and will be
+pursued accordingly.

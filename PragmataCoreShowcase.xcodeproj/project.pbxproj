@@ -1,0 +1,2186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F36B9AE9B7A9935CB64A3 /* caustic_distortion.ktx in Resources */ = {isa = PBXBuildFile; fileRef = F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */; };
+		014C54146BC843B019CF31E4 /* M_xrayshader_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */; };
+		01C85B36AE5575E3D2E57D19 /* sunny_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 324AA687D0F89A748B48C666 /* sunny_ibl.ktx */; };
+		01E33E19525F65A2DFEC7927 /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = 5362DB346A8B0FC413DFBF6E /* Materials */; };
+		027402ADAA792E0FB3782BBE /* PT_NorXYFoMask.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */; };
+		027BC4167CDE79AD568E3202 /* seafloor_parametric_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */; };
+		044680D68C752FCAF2914475 /* ControlsINI in Resources */ = {isa = PBXBuildFile; fileRef = FC61621959AB1E054E933BE6 /* ControlsINI */; };
+		04851735E10E56C1E4AB7ADA /* T_floor_udeck.ktx in Resources */ = {isa = PBXBuildFile; fileRef = BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */; };
+		057BCE81937871C00F38C787 /* T_N_PGAP_A.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */; };
+		08746CEF7FD03BD9B47B594D /* cameras.ini in Resources */ = {isa = PBXBuildFile; fileRef = 611418DA2473DB934C9EB18A /* cameras.ini */; };
+		0AE47A0FC670B9622E64B3B9 /* T_Panel_wood.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */; };
+		0B7A1AE919ED9AD7D714E1F0 /* hull_colors.json in Resources */ = {isa = PBXBuildFile; fileRef = FD9C80FECF3932956EAC19BA /* hull_colors.json */; };
+		0BBAA4BE01AF54B27C32072A /* ConfiguratorEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */; };
+		0C7EAF4C26F5CD2DF376D48E /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055519A0F5B7D32E0E0E1347 /* MetalKit.framework */; };
+		0CBD2160193B8846224D67DD /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = 5362DB346A8B0FC413DFBF6E /* Materials */; };
+		0D49E46B6E837F922D0EE83B /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055519A0F5B7D32E0E0E1347 /* MetalKit.framework */; };
+		0E1049128887564633297697 /* rain_ripples.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */; };
+		0E76896D1439833B8C8D330D /* T_N_MetalFlakes.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */; };
+		0F425DB1D654CBFD743E2932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD21AC9600EFF3604F01CACA /* AppDelegate.swift */; };
+		0F76728E3E72975EFEC6D0A3 /* M_xrayshader_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */; };
+		1013FDEA21A580D97B176B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF46652A494B4D0A237FEEEE /* Assets.xcassets */; };
+		10426F7F626D0B5974172D9A /* M_HexMesh_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */; };
+		104F85C75A3DDA772E3F5960 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDAC1FCD95E722E208C54337 /* README.md */; };
+		11355AF4C333FB6C8FBB8BE6 /* M_PanelGap_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */; };
+		130DB54905F787A3A09093AD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */; };
+		16B2D0F447E7918C622993DF /* PCraft400.glb in Resources */ = {isa = PBXBuildFile; fileRef = D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */; };
+		17CC5A21E604DC1161A2A713 /* M_HexMesh_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */; };
+		19D9EB7738F6CA6FBC5EECF1 /* LiveryTwo.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */; };
+		1B51E747459FC873091D9A6D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F8B907BFF81518BC0BDB /* AppTheme.swift */; };
+		1B6507B54AA28B0E0B0D0074 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4BED9EE831B3208A50FFD0 /* AppKit.framework */; };
+		1B7E1A9921C32627D41F761E /* ConfiguratorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */; };
+		1BF44368D33D0067E1E96017 /* PragmataCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78219BF8AE56D9EAAA6472BA /* PragmataCore.xcframework */; };
+		1C8338F08545CC5AC0A55154 /* M_CarPaint_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */; };
+		1C96BABBB6C4DB442A7AF055 /* nebula_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */; };
+		1C9FFB1A520B1597AC35BAF8 /* T_D_Decals.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */; };
+		216192A7FD8579D79B0C9503 /* water_alpha.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */; };
+		23D7FF3A3B353F985500ADC6 /* PCraft400.glb in Resources */ = {isa = PBXBuildFile; fileRef = D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */; };
+		23F08B3E9EFABE243C79F0D5 /* SM_warpbubble.glb in Resources */ = {isa = PBXBuildFile; fileRef = CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */; };
+		23F4FBB71EFF631CAF044A58 /* T_floor_udeck.ktx in Resources */ = {isa = PBXBuildFile; fileRef = BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */; };
+		2404BC76A7C7E4D46AECFA1A /* SandFloor in Resources */ = {isa = PBXBuildFile; fileRef = 485A43E01962A73B9B2726CF /* SandFloor */; };
+		24E25AFAD85DC04FAF01DAF8 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055519A0F5B7D32E0E0E1347 /* MetalKit.framework */; };
+		25B4D1F6C1D0C5C3B3B8AEE1 /* PragmataViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */; };
+		26253844457FEB3A566C93E6 /* nebula_ibl_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */; };
+		2853B5C6E55B456010F66BD4 /* T_Warp_LiTemNoise12.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */; };
+		29637B5272DE4A2E96F6D717 /* xRayMaterial in Resources */ = {isa = PBXBuildFile; fileRef = 13F87D4569D3799C4BC14543 /* xRayMaterial */; };
+		29731128144192124903C3AF /* iOSConfiguratorComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C67AF3E3CDD681ECA6BCFA /* iOSConfiguratorComponents.swift */; };
+		29C005E5AE2893B443DFEC37 /* M_Glass_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */; };
+		2A076C85AA106416C1DE75BA /* SandFloor in Resources */ = {isa = PBXBuildFile; fileRef = 485A43E01962A73B9B2726CF /* SandFloor */; };
+		2A3E5149AE2640928B3C145B /* T_floor_udeck.ktx in Resources */ = {isa = PBXBuildFile; fileRef = BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */; };
+		2A934C37B76E04DB35CEB640 /* unlit_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */; };
+		2AA9B54ADB21271DEA68281A /* T_StreakMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */; };
+		2CE0C23A4D7A0C5609FB3CFD /* MetalPainted_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */; };
+		2CEF17068FBC1A6154FE1F98 /* sandFloor_optimized.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */; };
+		2D2ADFC1661FC335E6035B6D /* rain_ripples.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */; };
+		2E408407BADE0849B95B07F7 /* PragmataView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 888D75252AADA40BFBEE6709 /* PragmataView.mm */; };
+		2EC70F10EB96356BB65D0814 /* PragmataViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */; };
+		2ED8653E485E69C86F3C24F9 /* WaterMountains.glb in Resources */ = {isa = PBXBuildFile; fileRef = 80814C07DEF6997FDA328428 /* WaterMountains.glb */; };
+		31926047615CE9876F0C9435 /* SM_warpbubble.glb in Resources */ = {isa = PBXBuildFile; fileRef = CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */; };
+		331AC1FBCFA3226CD9110CD4 /* M_WarpBubble_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */; };
+		3775038B41A6C8896ADA0DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9072098F68431185E6ADB71 /* Main.storyboard */; };
+		37CA98580DD5B7C903EACAE1 /* MaterialsDesktop in Resources */ = {isa = PBXBuildFile; fileRef = EC78BD4B3FD12CE4B25F0103 /* MaterialsDesktop */; };
+		389BDD26B1D5EF6775861220 /* nebula_ibl_skybox.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */; };
+		39D23FC71A0BE9221EB7CF53 /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6404D03E3D0307DAD216615C /* ManifestLoader.swift */; };
+		3B24655E0E450EBB83359808 /* rainDropplet.glb in Resources */ = {isa = PBXBuildFile; fileRef = C6E6D374032F992D5D164669 /* rainDropplet.glb */; };
+		3ED00192FC11DAC586727A76 /* M_Decals_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */; };
+		3EF1AE04A3FD8244B4433C50 /* wooden_studio_08_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */; };
+		40299CACF9B28993241EDB61 /* water_caustics.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */; };
+		427181D47396CD0640088B79 /* T_N_MetalFlakes.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */; };
+		429E52E281D581D838541EFF /* raineffect_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = C2C8551324A5B4299222F650 /* raineffect_metal.filamat */; };
+		42FDFF77697E56CD5842C2F0 /* water_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1588FF3F4FECBFB31C30D94A /* water_metal.filamat */; };
+		434D378A12FB62EF74B2CE28 /* PT_NorXYFoMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */; };
+		438D759BF635F9D8989CC4B8 /* sunny_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 324AA687D0F89A748B48C666 /* sunny_ibl.ktx */; };
+		43BAB1E615F26F65F8126F64 /* PragmataCoreIOSBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */; };
+		4428AA2F3B2C2A03EFAC4AF5 /* wooden_studio_08_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */; };
+		45CCE5A9B2620C2BD1CCDD97 /* T_Warp_LiTemNoise12.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */; };
+		46A2EEC3AC9D47BC208214EA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */; };
+		47E2C512380D4C07AF3756AD /* seafloor_parametric_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */; };
+		4D58525050F3D82C24072BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F370946B8A95A93B9E451BA /* AppDelegate.swift */; };
+		4DE0FA26E7A3684CC379114E /* ConfiguratorKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */; };
+		4DE5B6B88060AD681F57927A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2498500867B6D1A5B44CC2CF /* QuartzCore.framework */; };
+		4EB2029D11651B630AD15130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E46514879AB3DCB402DB42 /* UIKit.framework */; };
+		4F40E623CCC4871C241BE34D /* PT_NorXYFoMask.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */; };
+		4FCCA2AE583623E740826CD4 /* normaldebug_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */; };
+		4FE460D0228EFB81BD950564 /* nebula_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */; };
+		50AECB1075DB3C926D7CF887 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB595AC339323D9F0978866C /* AppLog.swift */; };
+		5165FF9EF9075A7E57CA21A8 /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */; };
+		526E09D4C76C8E465A4BCBEB /* unlit_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */; };
+		552794A5A1967538F940DFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF46652A494B4D0A237FEEEE /* Assets.xcassets */; };
+		5695E54EDB22256973D5EA4A /* T_D_Decals.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */; };
+		569DABBC8175717A91A55249 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37C834789C5EB050643E752 /* Metal.framework */; };
+		57DC2AA60D51F6DA0E97434E /* water_alpha.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */; };
+		580BA4F7B7362BAC05196837 /* rainDropplet.glb in Resources */ = {isa = PBXBuildFile; fileRef = C6E6D374032F992D5D164669 /* rainDropplet.glb */; };
+		5B167477AE9006315EB516A1 /* PragmataViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */; };
+		5C35216B11682562A35D9158 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F150D8746CC7811D5BABD /* main.swift */; };
+		5C4CFF7EC0BE4C456B3CCBA6 /* xRayMaterial in Resources */ = {isa = PBXBuildFile; fileRef = 13F87D4569D3799C4BC14543 /* xRayMaterial */; };
+		5C54AD905A50BF676558F8BE /* SM_hangar.glb in Resources */ = {isa = PBXBuildFile; fileRef = 21AFC81845B1EA7722470169 /* SM_hangar.glb */; };
+		5D5DDD33AE0F3C13879C3FF8 /* raineffect_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = C2C8551324A5B4299222F650 /* raineffect_metal.filamat */; };
+		5FB4874AB01B72D341C29CAB /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */; };
+		6088D866E63D62FD8F4C368E /* MetalPainted_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */; };
+		60E07FEBACCCDCBF49305C18 /* water_caustics.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */; };
+		610E50A63FAC7EEA96CF1D16 /* nebula_ibl_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */; };
+		6147E6311F9D68CA92355C60 /* T_D_Decals.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */; };
+		64933875398147835B75403C /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F8B907BFF81518BC0BDB /* AppTheme.swift */; };
+		649CC9A76592FF828122A305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20CCCA16786917A8851073 /* AppDelegate.swift */; };
+		64EAA4540EFFE0243555DC6C /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37C834789C5EB050643E752 /* Metal.framework */; };
+		65D511FB7EC21F82CFCEB100 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37C834789C5EB050643E752 /* Metal.framework */; };
+		66CDF415FD7888D9E7999D62 /* SM_hangar.glb in Resources */ = {isa = PBXBuildFile; fileRef = 21AFC81845B1EA7722470169 /* SM_hangar.glb */; };
+		682196C4F527F85BD9D184C4 /* rain_ripples.png in Resources */ = {isa = PBXBuildFile; fileRef = C676F86F4AAA206C9017157E /* rain_ripples.png */; };
+		69470CECE4D48EAA1040B5F5 /* skybox_gradient_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */; };
+		6B343856EC02EE704081F3E3 /* PCraft400Interior.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A1650451D43751BF98904 /* PCraft400Interior.glb */; };
+		6BC29C287368ADFBA41CB4A0 /* PragmataCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78219BF8AE56D9EAAA6472BA /* PragmataCore.xcframework */; };
+		6BE825A425D1A2D72B00621C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDAC1FCD95E722E208C54337 /* README.md */; };
+		6F9F8EB73AE0101E818D0FF4 /* T_floor_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */; };
+		7002D0CDB27F63C5904C016C /* T_N_MetalFlakes.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */; };
+		7096EF037DEA771198E22DDF /* water_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1588FF3F4FECBFB31C30D94A /* water_metal.filamat */; };
+		70A6A4E0CA3FA4E5151CC381 /* rain_ripples.png in Resources */ = {isa = PBXBuildFile; fileRef = C676F86F4AAA206C9017157E /* rain_ripples.png */; };
+		70C25BA1C105DCBE8F03189A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E46514879AB3DCB402DB42 /* UIKit.framework */; };
+		718F21606931603FC8E86B60 /* sunny_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */; };
+		71C5DBD7BD3AEF7571236F37 /* debug_axes.glb in Resources */ = {isa = PBXBuildFile; fileRef = 16C26905C69613272DFB707C /* debug_axes.glb */; };
+		720C00E8024FD78DBAF37B42 /* MetalPainted_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */; };
+		723D2E2B7DFB76BAD2B83938 /* WaterMountains.glb in Resources */ = {isa = PBXBuildFile; fileRef = 80814C07DEF6997FDA328428 /* WaterMountains.glb */; };
+		742C0DB5D89CEF24DC346442 /* M_WarpBubble_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */; };
+		74BD4F9BDBBC6DA13D2BBF22 /* wooden_studio_08_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */; };
+		74FE5AA2794BDFD5447E43CC /* SharedConfiguratorComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */; };
+		7549E443938A95346B507B83 /* M_WarpBubble_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */; };
+		75B27211B621FEA2B826FEA3 /* unlit_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */; };
+		76858853BEF52A855CC020DD /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB595AC339323D9F0978866C /* AppLog.swift */; };
+		7702DD5B35CEE9B06DEEF997 /* M_Decals_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */; };
+		77CD0E7C1D6BCBF0F2C42B63 /* M_xrayshader_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */; };
+		791A293537A1CD576ABA675A /* SM_SkySphere.glb in Resources */ = {isa = PBXBuildFile; fileRef = 0699198028D331C971E62E6B /* SM_SkySphere.glb */; };
+		7947741AC2D6BD073ACA0A85 /* ConfiguratorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */; };
+		795C37BB5293315B62366503 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2498500867B6D1A5B44CC2CF /* QuartzCore.framework */; };
+		795EDFAD11D724035A3F2780 /* T_floor_eshtec.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 55D195242FAF882509E095CE /* T_floor_eshtec.ktx */; };
+		79F1DB3639A21DE0699A440C /* T_floor_eshtec.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 55D195242FAF882509E095CE /* T_floor_eshtec.ktx */; };
+		7C17FC6D79C8D650ABE6C332 /* SM_SkySphere.glb in Resources */ = {isa = PBXBuildFile; fileRef = 0699198028D331C971E62E6B /* SM_SkySphere.glb */; };
+		7D8BDE4EE4B2FF3FC0DF9AB9 /* LiveryTwo.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */; };
+		7E20E748D0F9B61723935895 /* cameras.ini in Resources */ = {isa = PBXBuildFile; fileRef = 611418DA2473DB934C9EB18A /* cameras.ini */; };
+		7E863CE3C43021A88823B895 /* T_Panel_wood.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */; };
+		7F790C5B797CC9A032D43E63 /* SandFloor in Resources */ = {isa = PBXBuildFile; fileRef = 485A43E01962A73B9B2726CF /* SandFloor */; };
+		802C412F60A20EA6B6D8ADED /* ConfiguratorViewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */; };
+		81E95795E250A73867C449E0 /* WaterMaterial in Resources */ = {isa = PBXBuildFile; fileRef = B26C639E04D0D02833C44078 /* WaterMaterial */; };
+		86457E80F75F014B3AAB3E7B /* debug_axes.glb in Resources */ = {isa = PBXBuildFile; fileRef = 16C26905C69613272DFB707C /* debug_axes.glb */; };
+		880AB70C595FF2125315618C /* rainDropplet.glb in Resources */ = {isa = PBXBuildFile; fileRef = C6E6D374032F992D5D164669 /* rainDropplet.glb */; };
+		885B937F902E1DCAEBE912C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F92A02457B48CFB47DB093 /* SceneDelegate.swift */; };
+		89062D912303613031FABF2E /* SharedConfiguratorComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */; };
+		89F58834CFDCC1904D3FDCB1 /* SM_hangar.glb in Resources */ = {isa = PBXBuildFile; fileRef = 21AFC81845B1EA7722470169 /* SM_hangar.glb */; };
+		8B52755601923A1D5CD662F7 /* T_N_PGAP_A.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */; };
+		8B8B7A4BAA8C8B55C8EC287C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2498500867B6D1A5B44CC2CF /* QuartzCore.framework */; };
+		8C20A25E1D1686479A01A289 /* sunny_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */; };
+		8D803840EACD2118689CDEAA /* T_StreakMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */; };
+		8DE6CF073DB2266CCCB5FA44 /* T_Roughness.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 0004EA96468344622C9E405E /* T_Roughness.ktx */; };
+		8EB6D915F40169BA0481E676 /* SM_warpbubble.glb in Resources */ = {isa = PBXBuildFile; fileRef = CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */; };
+		8F3C343F4F0A6E495728914B /* raineffect_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = C2C8551324A5B4299222F650 /* raineffect_metal.filamat */; };
+		8FAA4AD96DC351BC51AB385C /* T_floor_eshtec.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 55D195242FAF882509E095CE /* T_floor_eshtec.ktx */; };
+		909505D3B6554AE9E3C7AA52 /* wooden_studio_08_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */; };
+		912DEFCE37DB0F5C34AD7103 /* PT_NorXYFoMask.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */; };
+		917EEFC291483C8C1209F3FE /* TVOSBoatConfiguratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705DE5B51544140857400968 /* TVOSBoatConfiguratorView.swift */; };
+		9264BD1FA0A8FD22B3A36A9E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C984BA469FCAB8F67EEC4 /* AppConfig.swift */; };
+		9338DAE7BCD6E66FB007877A /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = 5362DB346A8B0FC413DFBF6E /* Materials */; };
+		93488FE2367199C34C90ED18 /* M_Glass_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */; };
+		93AA8DEA5046107466C254A8 /* ControlsINI in Resources */ = {isa = PBXBuildFile; fileRef = FC61621959AB1E054E933BE6 /* ControlsINI */; };
+		946965F2AC99094BDDCECE69 /* caustic_distortion.ktx in Resources */ = {isa = PBXBuildFile; fileRef = F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */; };
+		949A6E76A9845B3F99B406B0 /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6404D03E3D0307DAD216615C /* ManifestLoader.swift */; };
+		94D880DC29E9BFC3E0C93A47 /* ConfiguratorEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */; };
+		95854BE762A078ECEF501C76 /* LiveryOne.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6121599BF1408A2A3509EAFA /* LiveryOne.ktx */; };
+		95BABECFD3B72F10DF9CC981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F5E9CBF88125B2835BD66 /* ViewController.swift */; };
+		96C6194D9C412CCE9DF67C0F /* M_PanelGap_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */; };
+		97D29B9B3E7F94D8C3C8B849 /* SM_SkySphere.glb in Resources */ = {isa = PBXBuildFile; fileRef = 0699198028D331C971E62E6B /* SM_SkySphere.glb */; };
+		9A8FD21CA1C20BD9FFA0BB24 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C984BA469FCAB8F67EEC4 /* AppConfig.swift */; };
+		9C9CAD05E757ADDE2DD0519B /* T_Mesh.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */; };
+		9F92C3F90425472534A2EB4A /* water_caustics.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */; };
+		9FDB6509E46BEB9EF83D536F /* nebula_ibl_skybox.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */; };
+		A0D800742A51B2556FCCE23A /* rain_ripples.ktx2 in Resources */ = {isa = PBXBuildFile; fileRef = A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */; };
+		A17A2AA20DA6FCFB36A58799 /* normaldebug_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */; };
+		A34B45ED977147F6A787BD59 /* WaterMountains.glb in Resources */ = {isa = PBXBuildFile; fileRef = 80814C07DEF6997FDA328428 /* WaterMountains.glb */; };
+		A380F51E97B781B13FA4B4EB /* FullScreenHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D235E8A832FE612CA352EA /* FullScreenHostingController.swift */; };
+		A3A86726A6CA95258BB3C740 /* M_HexMesh_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */; };
+		A3BBA99E8606F17C7BF8F8EB /* LiveryOne.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6121599BF1408A2A3509EAFA /* LiveryOne.ktx */; };
+		A3DF0CC9E04434678B4B6FC0 /* T_Panel_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */; };
+		A657B22F5C55B9C7AE5CDA17 /* caustic_distortion.ktx in Resources */ = {isa = PBXBuildFile; fileRef = F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */; };
+		A78631DBB06E8172539AD975 /* PCraft400Interior.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A1650451D43751BF98904 /* PCraft400Interior.glb */; };
+		A8F2D945165E3236E2878105 /* nebula_ibl_skybox.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */; };
+		A99DF3B8FABC0BCFDE47328B /* M_Decals_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */; };
+		A9F132F6ACDEFBD2BF33840A /* iPadBoatConfiguratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C4F40D481FE66142B8C5E /* iPadBoatConfiguratorView.swift */; };
+		AB8D0DCD6F9B6B4B18FE9918 /* T_floor_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */; };
+		AE48FA68B6219E716E7B2209 /* seafloor_parametric_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */; };
+		AF46FA0AAE1D3CCF84F74D95 /* PragmataCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78219BF8AE56D9EAAA6472BA /* PragmataCore.xcframework */; };
+		AFD0B3DEF83D3A2CF066F1B3 /* hull_colors.json in Resources */ = {isa = PBXBuildFile; fileRef = FD9C80FECF3932956EAC19BA /* hull_colors.json */; };
+		AFFF039C06D293DB8E3C69CB /* xRayMaterial in Resources */ = {isa = PBXBuildFile; fileRef = 13F87D4569D3799C4BC14543 /* xRayMaterial */; };
+		B04C2016E22BCA893CC6C7DB /* PragmataMacView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10C0EE229A2D9CCA9826F764 /* PragmataMacView.mm */; };
+		B0B81E826B009E9CE0058722 /* WaterMaterial in Resources */ = {isa = PBXBuildFile; fileRef = B26C639E04D0D02833C44078 /* WaterMaterial */; };
+		B0F7FAA4776AB1FC09AE5B59 /* LiveryOne.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6121599BF1408A2A3509EAFA /* LiveryOne.ktx */; };
+		B139B0E5B125BF3AF73E3460 /* water_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 1588FF3F4FECBFB31C30D94A /* water_metal.filamat */; };
+		B2AF6D9CD06A415803DEBA11 /* PragmataView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 888D75252AADA40BFBEE6709 /* PragmataView.mm */; };
+		B36028DDE109DB825244FDC2 /* SharedConfiguratorComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */; };
+		B6972B03656F9754B254DBCE /* LiveryTwo.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */; };
+		B72FDE72B0E43FDFE6A4765B /* T_sand.ktx in Resources */ = {isa = PBXBuildFile; fileRef = AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */; };
+		B9E938A5EC55960CC3ECEFC2 /* ConfiguratorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */; };
+		BA5376F085E0B6A07D3C258C /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F8B907BFF81518BC0BDB /* AppTheme.swift */; };
+		BA9DB5A0547C73529F69C01E /* sunny_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */; };
+		BC51ABBAC297616E454F7742 /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6404D03E3D0307DAD216615C /* ManifestLoader.swift */; };
+		BE20B0623F55C7F64504A1CA /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */; };
+		BF24D4D6EE89003771DD9FA6 /* hull_colors.json in Resources */ = {isa = PBXBuildFile; fileRef = FD9C80FECF3932956EAC19BA /* hull_colors.json */; };
+		C0A7797A0BF506FA885DAE30 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */; };
+		C16B7D20F91D7F0B11E500B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDAC1FCD95E722E208C54337 /* README.md */; };
+		C2D0D6D28C8DBF95EF95D655 /* T_Warp_LiTemNoise12.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */; };
+		C2DC0E787835117FBD2779A4 /* rain_ripples.png in Resources */ = {isa = PBXBuildFile; fileRef = C676F86F4AAA206C9017157E /* rain_ripples.png */; };
+		C3C941A12DD9037A32194E37 /* PragmataCoreIOSBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */; };
+		C470ED39C8F9C31575D6EFB5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F528D138B2ABCBA954483B6D /* GameController.framework */; };
+		C4E74FC43A3AF6FFE65988FF /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB595AC339323D9F0978866C /* AppLog.swift */; };
+		C6A5AE798BB9D05649E6C4EF /* nebula_ibl_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */; };
+		CB22AE36B6F4A35D0EA3BF51 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */; };
+		CB8C773E1424A1B36E8AA690 /* wooden_studio_08_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */; };
+		CC3AC56F95E8F579DFBD0ED0 /* skybox_gradient_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */; };
+		CD008328BFE8D1AC4B71AE81 /* T_floor_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */; };
+		CEEE8EC657D4EA25CCAD45AE /* T_Panel_wood.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */; };
+		CFE162FC542B81EF44C0EA85 /* PT_NorXYFoMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */; };
+		D190CDB339062F6328427D0F /* skybox_gradient_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */; };
+		D38914064717BFC5F8EA5504 /* PCraft400.glb in Resources */ = {isa = PBXBuildFile; fileRef = D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */; };
+		D45169769601653903CAE49D /* cameras.ini in Resources */ = {isa = PBXBuildFile; fileRef = 611418DA2473DB934C9EB18A /* cameras.ini */; };
+		D5C43FB0F92A0C9F1D2CB84B /* ConfiguratorViewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */; };
+		D5D8E25CB867A2EEA1360F29 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */; };
+		D84E1260BD877A2A2748F16B /* SiriRemoteObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7E6204F48DE6720EA722 /* SiriRemoteObserver.swift */; };
+		D9FD3A7EDC01652071A0882D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C3F0CFAB825725B51797FC /* SceneDelegate.swift */; };
+		DA738FF8556015167349B35D /* T_Roughness.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 0004EA96468344622C9E405E /* T_Roughness.ktx */; };
+		DB57304760A68B1FEACAA0E6 /* T_sand.ktx in Resources */ = {isa = PBXBuildFile; fileRef = AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */; };
+		DC8575F49548C50DBB6E75AD /* M_CarPaint_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */; };
+		DC92F265A4FA454971ECCBF6 /* nebula_sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */; };
+		DDCB5A72C5E9A2D53D96AD87 /* normaldebug_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */; };
+		DE8D6321EE4DEC8370934E54 /* PCraft400Interior.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A1650451D43751BF98904 /* PCraft400Interior.glb */; };
+		DF8B42991406BE3BF8852A69 /* sandFloor_optimized.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */; };
+		DFA91BF4BADBE1501380027C /* PT_NorXYFoMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */; };
+		E015BC9BEF71EAF633507600 /* PragmataCoreIOSBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */; };
+		E0EA77273EA4D04F03A4D53F /* M_Glass_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */; };
+		E6B340E5C5326765BB5560B1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C984BA469FCAB8F67EEC4 /* AppConfig.swift */; };
+		E74DC44160340D1BFBC2C0CC /* ConfiguratorKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */; };
+		EA88B3E97663ABFE9858C551 /* T_Mesh.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */; };
+		EBF8221501803001D85D190C /* TVOSMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7868DA8B2D4C87ABC539EB /* TVOSMainView.swift */; };
+		EBFE181AC1F31E0442758D9B /* T_Panel_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */; };
+		EBFE8F6D67F3C4CF143B365E /* T_Mesh.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */; };
+		EE56EAD4703EE8A73880943B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF46652A494B4D0A237FEEEE /* Assets.xcassets */; };
+		EF6164F809B9059EA7CCCD99 /* wooden_studio_08_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */; };
+		EF80BEBC7C3AA227A8F6E4D2 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C185795B00F6C2004CEDDA9 /* UIComponents.swift */; };
+		EFD50BBBF9C00856D44B0A12 /* FilamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C08FD9C63B916AB43369A /* FilamentView.swift */; };
+		F0DC06E415BEAFCC1C8A3A8E /* ConfiguratorEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */; };
+		F12AFC26554B93842FE124A3 /* sunny_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 324AA687D0F89A748B48C666 /* sunny_ibl.ktx */; };
+		F138E505766A61338A4B60A1 /* T_sand.ktx in Resources */ = {isa = PBXBuildFile; fileRef = AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */; };
+		F15BFD2785F75389EAC92BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949364A4BDC099E783757084 /* LaunchScreen.storyboard */; };
+		F29EC4CA7A55EFAA651F4716 /* ControlsINI in Resources */ = {isa = PBXBuildFile; fileRef = FC61621959AB1E054E933BE6 /* ControlsINI */; };
+		F2B235BEF0866F06FA9997BF /* T_N_PGAP_A.ktx in Resources */ = {isa = PBXBuildFile; fileRef = FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */; };
+		F3EFB5AE61590BB2503FDCE0 /* water_alpha.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */; };
+		F45DFA863AD38AED09655CAE /* T_Roughness.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 0004EA96468344622C9E405E /* T_Roughness.ktx */; };
+		F56A5FB525C3B9BABC3FA889 /* T_Panel_teak.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */; };
+		F6D3D4D2EA384030F7E66855 /* ConfiguratorViewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */; };
+		F834A1A455DC2264D64B8A25 /* MacConfiguratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D155AAD351A66A7E97A34 /* MacConfiguratorView.swift */; };
+		F84B0CF1AAE2AEECE587297D /* TopViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08AE1AB211D1C2BCFDE32F1 /* TopViewButton.swift */; };
+		F9C3B79BFD8CB94C514E38CD /* WaterMaterial in Resources */ = {isa = PBXBuildFile; fileRef = B26C639E04D0D02833C44078 /* WaterMaterial */; };
+		FA481A099AB0DE78B1200CF6 /* M_PanelGap_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */; };
+		FA623973C5B34A26A5019AFF /* ConfiguratorKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */; };
+		FBEB119FBFC47CD392B163F7 /* M_CarPaint_metal.filamat in Resources */ = {isa = PBXBuildFile; fileRef = 057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */; };
+		FBFA46DF14B756F82CBCFB62 /* T_StreakMask.ktx in Resources */ = {isa = PBXBuildFile; fileRef = CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */; };
+		FDDFB707737D8BFBB9E68A57 /* sandFloor_optimized.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */; };
+		FF93C6A0C247F00ADC601BBC /* debug_axes.glb in Resources */ = {isa = PBXBuildFile; fileRef = 16C26905C69613272DFB707C /* debug_axes.glb */; };
+		FFD9426729716680D32DCFC7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0004EA96468344622C9E405E /* T_Roughness.ktx */ = {isa = PBXFileReference; path = T_Roughness.ktx; sourceTree = "<group>"; };
+		015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */ = {isa = PBXFileReference; path = seafloor_parametric_metal.filamat; sourceTree = "<group>"; };
+		035F74EA4B7A2216F01CA3F2 /* Package.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Package.h; sourceTree = "<group>"; };
+		044036430CEC4758C15611AB /* AcquiredImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcquiredImage.h; sourceTree = "<group>"; };
+		0550A275B4FC2ECA0B84DF32 /* robin_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = robin_map.h; sourceTree = "<group>"; };
+		055519A0F5B7D32E0E0E1347 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */ = {isa = PBXFileReference; path = M_CarPaint_metal.filamat; sourceTree = "<group>"; };
+		063FF7ACCEB6CBC5464BF600 /* PlatformEGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformEGL.h; sourceTree = "<group>"; };
+		0699198028D331C971E62E6B /* SM_SkySphere.glb */ = {isa = PBXFileReference; path = SM_SkySphere.glb; sourceTree = "<group>"; };
+		07ECEB77E650ED9FFA3ABC85 /* PlatformOSMesa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformOSMesa.h; sourceTree = "<group>"; };
+		0D4BED9EE831B3208A50FFD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0D872484887ED1A12F1FEB56 /* mat4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mat4.h; sourceTree = "<group>"; };
+		0F7C170E23617C55A0BAAA40 /* WebGPUPlatformLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGPUPlatformLinux.h; sourceTree = "<group>"; };
+		0FC3CF5487B792FB1467999B /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		10C0EE229A2D9CCA9826F764 /* PragmataMacView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataMacView.mm; sourceTree = "<group>"; };
+		1225F1B54E93C9874F6BB82B /* RenderTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderTarget.h; sourceTree = "<group>"; };
+		13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */ = {isa = PBXFileReference; path = M_PanelGap_metal.filamat; sourceTree = "<group>"; };
+		136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */ = {isa = PBXFileReference; path = normaldebug_metal.filamat; sourceTree = "<group>"; };
+		139EF2731EABDDA80FD9EFF6 /* NameComponentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameComponentManager.h; sourceTree = "<group>"; };
+		13F87D4569D3799C4BC14543 /* xRayMaterial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xRayMaterial; path = ../configurator/Shared/Resources/xRayMaterial; sourceTree = SOURCE_ROOT; };
+		1588FF3F4FECBFB31C30D94A /* water_metal.filamat */ = {isa = PBXFileReference; path = water_metal.filamat; sourceTree = "<group>"; };
+		15A2B1B80B0CD3EC7F3A4DCF /* Viewport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Viewport.h; sourceTree = "<group>"; };
+		15D235E8A832FE612CA352EA /* FullScreenHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenHostingController.swift; sourceTree = "<group>"; };
+		160B814CED2B09D751115386 /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		16C26905C69613272DFB707C /* debug_axes.glb */ = {isa = PBXFileReference; path = debug_axes.glb; sourceTree = "<group>"; };
+		1810FE36E4DCC38909A60EB5 /* Options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		198AB3CB49EC3B116AEDE009 /* TangentSpaceMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TangentSpaceMesh.h; sourceTree = "<group>"; };
+		1BB1D42E328A1911CAF25B87 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		1BCE0D075F52CA6E3D3A5F9F /* Skybox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skybox.h; sourceTree = "<group>"; };
+		1BE6E650F08A1D8514A53B1B /* RemoteServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteServer.h; sourceTree = "<group>"; };
+		1C2592F30458E886AA2E538C /* TextureSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureSampler.h; sourceTree = "<group>"; };
+		1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */ = {isa = PBXFileReference; path = unlit_metal.filamat; sourceTree = "<group>"; };
+		1D0AEEE8B0E1D10C6886346B /* PlatformCocoaTouchGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformCocoaTouchGL.h; sourceTree = "<group>"; };
+		1E5BF5B1314CEA8760833A7A /* LightManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightManager.h; sourceTree = "<group>"; };
+		1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sunny_sh.txt; sourceTree = "<group>"; };
+		1ED53F13EB9F631FCD39137C /* PlatformMetal-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlatformMetal-ObjC.h"; sourceTree = "<group>"; };
+		201A49B1A32E15FD179EEA31 /* Panic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Panic.h; sourceTree = "<group>"; };
+		21088D3432ECAF5A59EA08FF /* SingleInstanceComponentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleInstanceComponentManager.h; sourceTree = "<group>"; };
+		218085565D3012DCDF84A5B5 /* unwindows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unwindows.h; sourceTree = "<group>"; };
+		21AFC81845B1EA7722470169 /* SM_hangar.glb */ = {isa = PBXFileReference; path = SM_hangar.glb; sourceTree = "<group>"; };
+		2498500867B6D1A5B44CC2CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2549B02E31D10013B9436379 /* MaterialProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialProvider.h; sourceTree = "<group>"; };
+		25F89FCC03CF2F999B92B03F /* mathfwd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mathfwd.h; sourceTree = "<group>"; };
+		26B091A2302D9E7A7FA14137 /* MaterialChunkType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialChunkType.h; sourceTree = "<group>"; };
+		26FFBF60E6F8FEC4B009AF23 /* VertexBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexBuffer.h; sourceTree = "<group>"; };
+		278FFAF40C3D64F4C4FF8C5F /* BufferObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BufferObject.h; sourceTree = "<group>"; };
+		27BDDDE64289B5CE02705E83 /* math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		28748D1ABF8024DF61A0B1F2 /* PresentCallable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentCallable.h; sourceTree = "<group>"; };
+		2A215A81C9B7F22CBCD6D535 /* RefCountedMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefCountedMap.h; sourceTree = "<group>"; };
+		2A463CC4D42C8C2280AE295E /* Fence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fence.h; sourceTree = "<group>"; };
+		2C49A82FABEEA064BE0AC91A /* uberarchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uberarchive.h; sourceTree = "<group>"; };
+		2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */ = {isa = PBXFileReference; path = M_xrayshader_metal.filamat; sourceTree = "<group>"; };
+		2F8D00DF2F5C703736378EFA /* PlatformGLX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformGLX.h; sourceTree = "<group>"; };
+		306FF526F515856E69C218B3 /* PrivateImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateImplementation.h; sourceTree = "<group>"; };
+		31AF74020E2A0807D318D2D6 /* tribool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tribool.h; sourceTree = "<group>"; };
+		324AA687D0F89A748B48C666 /* sunny_ibl.ktx */ = {isa = PBXFileReference; path = sunny_ibl.ktx; sourceTree = "<group>"; };
+		342E48D7F4F9CD6A66D3AA1B /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		35A5D9417114FD8B0D4E08DE /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		37130254E87523C80DDC7414 /* PlatformCocoaGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformCocoaGL.h; sourceTree = "<group>"; };
+		37AD2890579B206AA0EB85B9 /* ConfiguratorKitCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfiguratorKitCore.h; sourceTree = "<group>"; };
+		37E8ADA8F8142CE98CCC8075 /* VulkanPlatformLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VulkanPlatformLinux.h; sourceTree = "<group>"; };
+		38361C51198364985C23FCAC /* ImageSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSampler.h; sourceTree = "<group>"; };
+		388CCD37364CD87B7333D5C0 /* ImageOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageOps.h; sourceTree = "<group>"; };
+		38D579832CAF57EC8B67C691 /* LinearImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearImage.h; sourceTree = "<group>"; };
+		39930AEE3591D54071062951 /* fast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fast.h; sourceTree = "<group>"; };
+		3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */ = {isa = PBXFileReference; path = skybox_gradient_metal.filamat; sourceTree = "<group>"; };
+		3BD7302B0B779EAC1158370D /* PixelBufferDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixelBufferDescriptor.h; sourceTree = "<group>"; };
+		3C189C28900BAEA0A18228B7 /* AppLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
+		3C351D87F80570E92CDD4013 /* mikktspace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mikktspace.h; sourceTree = "<group>"; };
+		3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */ = {isa = PBXFileReference; path = T_Warp_LiTemNoise12.ktx; sourceTree = "<group>"; };
+		3EC2172AF40939C15599C188 /* quat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
+		40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		412FAF411907E7C34D0B9FAC /* EntityInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntityInstance.h; sourceTree = "<group>"; };
+		42A2CCABEEF6CF89750FD685 /* FilamentInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentInstance.h; sourceTree = "<group>"; };
+		4316561333B472F8704FBCC9 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		43AF6CEE3B44E001646C7746 /* Allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Allocator.h; sourceTree = "<group>"; };
+		43B0F43A0D489C85AC947BDD /* ResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceLoader.h; sourceTree = "<group>"; };
+		4437E4E59B7559C7D47E9015 /* ImageEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageEncoder.h; sourceTree = "<group>"; };
+		4603F66F468E74804AB208B2 /* MorphTargetBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorphTargetBuffer.h; sourceTree = "<group>"; };
+		46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataCoreIOSBridge.mm; sourceTree = "<group>"; };
+		46EB68A7D66F6B652CD04E63 /* MaterialBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialBuilder.h; sourceTree = "<group>"; };
+		485A43E01962A73B9B2726CF /* SandFloor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SandFloor; path = ../configurator/Shared/Resources/SandFloor; sourceTree = SOURCE_ROOT; };
+		489E80CC65F475C8D7C6628C /* Path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		48CCD749A5AF1FD433CE236B /* PipelineState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PipelineState.h; sourceTree = "<group>"; };
+		48DEEC4F6304D27A107114A2 /* DriverApiForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriverApiForward.h; sourceTree = "<group>"; };
+		4B1A662E9EEBA15013816795 /* BufferDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BufferDescriptor.h; sourceTree = "<group>"; };
+		4C889954A6DC706234EFBD19 /* robin_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = robin_hash.h; sourceTree = "<group>"; };
+		4CB35EDD628BF93150070217 /* PrivateImplementation-impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrivateImplementation-impl.h"; sourceTree = "<group>"; };
+		4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */ = {isa = PBXFileReference; path = M_HexMesh_metal.filamat; sourceTree = "<group>"; };
+		4CCBC282105BC4FCE9959164 /* CubemapIBL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubemapIBL.h; sourceTree = "<group>"; };
+		4E1DF0F7C48C0F317AA5CE34 /* mat2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mat2.h; sourceTree = "<group>"; };
+		4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = nebula_sh.txt; sourceTree = "<group>"; };
+		4E44F2235D2F43AB6F062793 /* WebGPUPlatformApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGPUPlatformApple.h; sourceTree = "<group>"; };
+		4EC2BB3BF83C0669A81585EB /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		4F84202C88907A5206563F78 /* OpenGLPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLPlatform.h; sourceTree = "<group>"; };
+		4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */ = {isa = PBXFileReference; path = M_Glass_metal.filamat; sourceTree = "<group>"; };
+		5021A0B720A2EEA10878C2AF /* DescriptorSetOffsetArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptorSetOffsetArray.h; sourceTree = "<group>"; };
+		517EF85E4DCB61CF140B4606 /* InternPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternPool.h; sourceTree = "<group>"; };
+		520F37C09986498E4D5E440E /* ostream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ostream.h; sourceTree = "<group>"; };
+		5362DB346A8B0FC413DFBF6E /* Materials */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Materials; path = ../configurator/Shared/Resources/Materials; sourceTree = SOURCE_ROOT; };
+		5370E8BF1FB0CD49EA7E8353 /* ostream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ostream.h; sourceTree = "<group>"; };
+		540DB81C5250C42A6170D563 /* PlatformWebGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformWebGL.h; sourceTree = "<group>"; };
+		54DC67908A9AF88976709AC6 /* ConfiguratorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfiguratorKit.h; sourceTree = "<group>"; };
+		556096A97FAA333DDB65B21B /* CubemapUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubemapUtils.h; sourceTree = "<group>"; };
+		55D195242FAF882509E095CE /* T_floor_eshtec.ktx */ = {isa = PBXFileReference; path = T_floor_eshtec.ktx; sourceTree = "<group>"; };
+		59F110D3D4953CDB5832FA4A /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		5A62B1521ED5EAA3AFEF110F /* CString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CString.h; sourceTree = "<group>"; };
+		5B0AB64B60CA207C3A0700D6 /* SkinningBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkinningBuffer.h; sourceTree = "<group>"; };
+		5C5C4F40D481FE66142B8C5E /* iPadBoatConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadBoatConfiguratorView.swift; sourceTree = "<group>"; };
+		5CBCAAFFF2FFF94CA837F0C4 /* build_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = build_info.h; sourceTree = "<group>"; };
+		5D32F223AAA9A1C8A438B55C /* PlatformMetal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformMetal.h; sourceTree = "<group>"; };
+		5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConfiguratorComponents.swift; sourceTree = "<group>"; };
+		5F143C9B6B64CF5F10BEE026 /* Invocable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invocable.h; sourceTree = "<group>"; };
+		5F370946B8A95A93B9E451BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FBF133D8DDD8573890D1038 /* Mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
+		611418DA2473DB934C9EB18A /* cameras.ini */ = {isa = PBXFileReference; path = cameras.ini; sourceTree = "<group>"; };
+		6121599BF1408A2A3509EAFA /* LiveryOne.ktx */ = {isa = PBXFileReference; path = LiveryOne.ktx; sourceTree = "<group>"; };
+		62C569A569A4B39CC5B966A5 /* MaterialInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialInstance.h; sourceTree = "<group>"; };
+		63C43A84A20D4CE00924D1B3 /* robin_growth_policy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = robin_growth_policy.h; sourceTree = "<group>"; };
+		6404D03E3D0307DAD216615C /* ManifestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLoader.swift; sourceTree = "<group>"; };
+		64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */ = {isa = PBXFileReference; path = T_Panel_wood.ktx; sourceTree = "<group>"; };
+		66F92A02457B48CFB47DB093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67E0727B5D326F3AC6119C80 /* ArchiveEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveEnums.h; sourceTree = "<group>"; };
+		681B09EC82D4F3757CF63F98 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		6A5F57A8B7FCB92075F56650 /* WebGPUPlatformAndroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGPUPlatformAndroid.h; sourceTree = "<group>"; };
+		6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */ = {isa = PBXFileReference; path = wooden_studio_08_ibl.ktx; sourceTree = "<group>"; };
+		6DAF7E6204F48DE6720EA722 /* SiriRemoteObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriRemoteObserver.swift; sourceTree = "<group>"; };
+		6EC48F58C977F85B666C83F3 /* ReadableArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadableArchive.h; sourceTree = "<group>"; };
+		6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6F42BCB155315181D9C0EC5C /* TVecHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVecHelpers.h; sourceTree = "<group>"; };
+		705DE5B51544140857400968 /* TVOSBoatConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSBoatConfiguratorView.swift; sourceTree = "<group>"; };
+		71588E44070292AEC389350D /* MeshReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeshReader.h; sourceTree = "<group>"; };
+		7302AD9D141E71574F0C860A /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */ = {isa = PBXFileReference; path = T_floor_teak.ktx; sourceTree = "<group>"; };
+		74EA676FA9B030A5D9D846C7 /* Ktx1Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ktx1Reader.h; sourceTree = "<group>"; };
+		7540C8FAB0E3548599CA3874 /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		76A404FA14923F6499DB936B /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		77EDC6FCEEAACE51252B1C37 /* Cubemap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cubemap.h; sourceTree = "<group>"; };
+		78219BF8AE56D9EAAA6472BA /* PragmataCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PragmataCore.xcframework; path = ../../dist/PragmataCore.xcframework; sourceTree = "<group>"; };
+		78FCF0DE35E4789655184476 /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		7A5609FECD2238EB32EAD9DF /* Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		7C185795B00F6C2004CEDDA9 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		7CE9E64F836A681867E3E4E5 /* SwapChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapChain.h; sourceTree = "<group>"; };
+		7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorModels.swift; sourceTree = "<group>"; };
+		7EE780DEA47D64FF32479CA2 /* Manipulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manipulator.h; sourceTree = "<group>"; };
+		7EEF96939D41749BF5F33983 /* ColorGrading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorGrading.h; sourceTree = "<group>"; };
+		7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
+		80016DBE498E629E21FC1611 /* AndroidNdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidNdk.h; sourceTree = "<group>"; };
+		80814C07DEF6997FDA328428 /* WaterMountains.glb */ = {isa = PBXFileReference; path = WaterMountains.glb; sourceTree = "<group>"; };
+		8118000FB6268E001094DB87 /* norm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = norm.h; sourceTree = "<group>"; };
+		81E46514879AB3DCB402DB42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82C9E0D09B5AA4310046C889 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		82EC7236B824C049D5251056 /* TrsTransformManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrsTransformManager.h; sourceTree = "<group>"; };
+		8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */ = {isa = PBXFileReference; path = T_Panel_teak.ktx; sourceTree = "<group>"; };
+		85B4344B2403734664919636 /* ColorTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTransform.h; sourceTree = "<group>"; };
+		860EABFB5316D5552E4F67E6 /* StructureOfArrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructureOfArrays.h; sourceTree = "<group>"; };
+		862C894C2A6530E31D198318 /* WebGPUPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGPUPlatform.h; sourceTree = "<group>"; };
+		867C701139617858409EC419 /* ColorSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSpace.h; sourceTree = "<group>"; };
+		886FC67012BA5AC9F4C5335D /* CallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallStack.h; sourceTree = "<group>"; };
+		888D75252AADA40BFBEE6709 /* PragmataView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataView.mm; sourceTree = "<group>"; };
+		8935A3C464CB5BC43E936BDF /* algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algorithm.h; sourceTree = "<group>"; };
+		89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PragmataCoreShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A15E8C0A553C07F817045C1 /* AssetLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetLoader.h; sourceTree = "<group>"; };
+		8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */ = {isa = PBXFileReference; path = nebula_ibl_skybox.ktx; sourceTree = "<group>"; };
+		8C66968620771E7E4A94B300 /* DriverEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriverEnums.h; sourceTree = "<group>"; };
+		8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */ = {isa = PBXFileReference; path = T_Mesh.ktx; sourceTree = "<group>"; };
+		8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PragmataCoreShowcase-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */ = {isa = PBXFileReference; path = sandFloor_optimized.glb; sourceTree = "<group>"; };
+		8F9A1650451D43751BF98904 /* PCraft400Interior.glb */ = {isa = PBXFileReference; path = PCraft400Interior.glb; sourceTree = "<group>"; };
+		8FB425CC4011BC8AE0C4ED13 /* PragmataCoreDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PragmataCoreDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FB95696B95988666C018956 /* BitmaskEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmaskEnum.h; sourceTree = "<group>"; };
+		919D908EFED5657402175363 /* ImmutableCString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImmutableCString.h; sourceTree = "<group>"; };
+		91C67AF3E3CDD681ECA6BCFA /* iOSConfiguratorComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConfiguratorComponents.swift; sourceTree = "<group>"; };
+		92036601E05DFDB984770767 /* compressed_pair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressed_pair.h; sourceTree = "<group>"; };
+		935C29A406721C0A0856B752 /* FilamentAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentAPI.h; sourceTree = "<group>"; };
+		944C984BA469FCAB8F67EEC4 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		949364A4BDC099E783757084 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */ = {isa = PBXFileReference; path = water_alpha.ktx; sourceTree = "<group>"; };
+		95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfiguratorKit.mm; sourceTree = "<group>"; };
+		970FB6363D45DF983B8C29F6 /* IndirectLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndirectLight.h; sourceTree = "<group>"; };
+		9715740F2B68D151DD2E71CD /* half.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
+		99115164789B4BE6F7A5D6D9 /* InstanceBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstanceBuffer.h; sourceTree = "<group>"; };
+		9A17DC5AB22B5D6A83A17C23 /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		9B4B5E5C89D39BA9EC6E69E3 /* EntityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntityManager.h; sourceTree = "<group>"; };
+		9E04E347CA80A3A451AF8A19 /* Handle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handle.h; sourceTree = "<group>"; };
+		9E902B470B7E30E90619C77B /* IndexBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexBuffer.h; sourceTree = "<group>"; };
+		9F4BB7740FD6B7BBDF8325E7 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		9F88C92CE71DE9664A2A3B83 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		9F8C08FD9C63B916AB43369A /* FilamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentView.swift; sourceTree = "<group>"; };
+		A0A09096E1713924A3AEE507 /* Ktx2Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ktx2Reader.h; sourceTree = "<group>"; };
+		A16B9617DD78BD2C8EC5CE85 /* memalign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memalign.h; sourceTree = "<group>"; };
+		A4FA53FCD6C02BA753497DF4 /* Systrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Systrace.h; sourceTree = "<group>"; };
+		A6F889B82BAE887E87D07C7E /* VulkanPlatformAndroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VulkanPlatformAndroid.h; sourceTree = "<group>"; };
+		A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */ = {isa = PBXFileReference; path = rain_ripples.ktx2; sourceTree = "<group>"; };
+		A880FAD6B95CA1021E7AD0BC /* CallbackHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackHandler.h; sourceTree = "<group>"; };
+		A9072098F68431185E6ADB71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AABE916989A616E71C1D16E7 /* ToneMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToneMapper.h; sourceTree = "<group>"; };
+		AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorViewLogic.swift; sourceTree = "<group>"; };
+		ABDEAFCED709D8FED45E69BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC60AEDF281FEE4753500A9D /* Bookmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		AC7868DA8B2D4C87ABC539EB /* TVOSMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSMainView.swift; sourceTree = "<group>"; };
+		AD20CCCA16786917A8851073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD78071A39697E651C07754E /* PlatformEGLAndroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformEGLAndroid.h; sourceTree = "<group>"; };
+		AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */ = {isa = PBXFileReference; path = T_sand.ktx; sourceTree = "<group>"; };
+		B08AE1AB211D1C2BCFDE32F1 /* TopViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewButton.swift; sourceTree = "<group>"; };
+		B1E6B83A2F27E1AEA0C877C7 /* PlatformEGLHeadless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformEGLHeadless.h; sourceTree = "<group>"; };
+		B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */ = {isa = PBXFileReference; path = PT_NorXYFoMask.ktx; sourceTree = "<group>"; };
+		B26C639E04D0D02833C44078 /* WaterMaterial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WaterMaterial; path = ../configurator/Shared/Resources/WaterMaterial; sourceTree = SOURCE_ROOT; };
+		B31E6990B0319B19A9093FB8 /* Material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		B3A4B81BEBBE6DD5365E4184 /* Ktx1Bundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ktx1Bundle.h; sourceTree = "<group>"; };
+		B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "PragmataCoreShowcase-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6161A223C1DEA4BE52A33AA /* VulkanPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VulkanPlatform.h; sourceTree = "<group>"; };
+		B61F150D8746CC7811D5BABD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B6255273DC5EE62D4A5BC67C /* WebGPUPlatformWindows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGPUPlatformWindows.h; sourceTree = "<group>"; };
+		B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */ = {isa = PBXFileReference; path = nebula_ibl_ibl.ktx; sourceTree = "<group>"; };
+		B64CC164C1760FE7AA87799C /* RenderableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderableManager.h; sourceTree = "<group>"; };
+		B805C5C63FAB6BFB6831840E /* sstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sstream.h; sourceTree = "<group>"; };
+		B9253CF33A9B3824EEC0D2BC /* PragmataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataView.h; sourceTree = "<group>"; };
+		B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */ = {isa = PBXFileReference; path = PT_NorXYFoMask.ktx2; sourceTree = "<group>"; };
+		BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */ = {isa = PBXFileReference; path = T_floor_udeck.ktx; sourceTree = "<group>"; };
+		BAB8C2A4990C3675AD15382E /* TMatHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMatHelpers.h; sourceTree = "<group>"; };
+		BB330365203D8B170530AA6F /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		BCE3B002ECF43ED3C0DC8981 /* Platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		BDFE8BE4DE76E7F5E9BCF6FB /* DebugRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugRegistry.h; sourceTree = "<group>"; };
+		BEB9E9B7B86E2AB0B072951F /* generatePrefilterMipmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generatePrefilterMipmap.h; sourceTree = "<group>"; };
+		BFA74873DC266099E0C29B58 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		C2C8551324A5B4299222F650 /* raineffect_metal.filamat */ = {isa = PBXFileReference; path = raineffect_metal.filamat; sourceTree = "<group>"; };
+		C37D5502209DCDA692CC2E96 /* PlatformWGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformWGL.h; sourceTree = "<group>"; };
+		C40F5E9CBF88125B2835BD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5821519138F620740363548 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wooden_studio_08_sh.txt; sourceTree = "<group>"; };
+		C676F86F4AAA206C9017157E /* rain_ripples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain_ripples.png; sourceTree = "<group>"; };
+		C67A13316325E7DFBA59B820 /* CubemapSH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubemapSH.h; sourceTree = "<group>"; };
+		C6A6DFC9E8EE84E6E515C619 /* VulkanPlatformApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VulkanPlatformApple.h; sourceTree = "<group>"; };
+		C6E6D374032F992D5D164669 /* rainDropplet.glb */ = {isa = PBXFileReference; path = rainDropplet.glb; sourceTree = "<group>"; };
+		C8B8C2F64E46FDA7F2AFDA61 /* NodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeManager.h; sourceTree = "<group>"; };
+		C9E130135679A88F1D283AC2 /* WritableArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WritableArchive.h; sourceTree = "<group>"; };
+		CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */ = {isa = PBXFileReference; path = T_StreakMask.ktx; sourceTree = "<group>"; };
+		CB595AC339323D9F0978866C /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		CBB46E85908D6ABA107A9462 /* Slice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
+		CC3DE1DDBEC6596F988D59C0 /* TextureProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureProvider.h; sourceTree = "<group>"; };
+		CD21AC9600EFF3604F01CACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3D1A6B9B060A1C7B5C73E6 /* Program.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
+		CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */ = {isa = PBXFileReference; path = SM_warpbubble.glb; sourceTree = "<group>"; };
+		D0243C4409EBBBE46D52FB01 /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */ = {isa = PBXFileReference; path = PCraft400.glb; sourceTree = "<group>"; };
+		D10DA7C5F346EF0AF049E67B /* Mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
+		D18050D94ACB086E30A02FA8 /* MaterialEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialEnums.h; sourceTree = "<group>"; };
+		D1D634E5876689FE706C3A28 /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		D1F921397C56F18DB9930354 /* Transcoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transcoder.h; sourceTree = "<group>"; };
+		D26343839106DE13598F870F /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		D2D8342C7655295D648E7484 /* TargetBufferInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetBufferInfo.h; sourceTree = "<group>"; };
+		D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */ = {isa = PBXFileReference; path = T_D_Decals.ktx; sourceTree = "<group>"; };
+		D46B7D5AE36AE2FA245A6BB7 /* SamplerDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamplerDescriptor.h; sourceTree = "<group>"; };
+		D4D24BCA5D33B08520A2E4C8 /* AutomationEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomationEngine.h; sourceTree = "<group>"; };
+		D6994B2F3187531E941348CB /* vec4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec4.h; sourceTree = "<group>"; };
+		D876B6E1D74E7F87EB950343 /* FixedCapacityVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedCapacityVector.h; sourceTree = "<group>"; };
+		D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */ = {isa = PBXFileReference; path = T_N_MetalFlakes.ktx; sourceTree = "<group>"; };
+		DAFC57E61C7EB9952D077D73 /* PragmataCoreIOSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataCoreIOSBridge.h; sourceTree = "<group>"; };
+		DD0FE9B4ACB7FA5811FF45DE /* FilamentAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentAsset.h; sourceTree = "<group>"; };
+		DDAC1FCD95E722E208C54337 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF673BCFA186B76DCD8ADAD0 /* utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		DFE9ABB05B62F4443986F3B4 /* StaticString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticString.h; sourceTree = "<group>"; };
+		E0177DCE88BAF957C7A754C5 /* TQuatHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQuatHelpers.h; sourceTree = "<group>"; };
+		E1B4B9DF952E7AA828699C4A /* Frustum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Frustum.h; sourceTree = "<group>"; };
+		E33D155AAD351A66A7E97A34 /* MacConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacConfiguratorView.swift; sourceTree = "<group>"; };
+		E37C834789C5EB050643E752 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		E5720E237937EFF9D6F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */ = {isa = PBXFileReference; path = M_Decals_metal.filamat; sourceTree = "<group>"; };
+		E881E6DB2DD531105D963F5C /* IBLPrefilterContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLPrefilterContext.h; sourceTree = "<group>"; };
+		E8C8EC505D2D0923D64138D5 /* Exposure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exposure.h; sourceTree = "<group>"; };
+		E8CEFADF3B6BC8E42888282C /* VulkanPlatformWindows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VulkanPlatformWindows.h; sourceTree = "<group>"; };
+		EA212174F4C750DF13955C2F /* vec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+		EA605A0991A9F83EE04FD5BE /* TransformManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformManager.h; sourceTree = "<group>"; };
+		EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorEngineView.swift; sourceTree = "<group>"; };
+		EC700EF9077E78380D3CEC46 /* MonotonicRingMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonotonicRingMap.h; sourceTree = "<group>"; };
+		EC78BD4B3FD12CE4B25F0103 /* MaterialsDesktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MaterialsDesktop; path = ../configurator/Shared/Resources/MaterialsDesktop; sourceTree = SOURCE_ROOT; };
+		ED0EB8D6CD56CB95B2F20450 /* ImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDecoder.h; sourceTree = "<group>"; };
+		EE92F8B907BFF81518BC0BDB /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		EF46652A494B4D0A237FEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C24022071CA6E46ACC3DBB /* mat3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mat3.h; sourceTree = "<group>"; };
+		F1C3F0CFAB825725B51797FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F25787E85DC6D23CD673DC22 /* scalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
+		F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */ = {isa = PBXFileReference; path = MetalPainted_metal.filamat; sourceTree = "<group>"; };
+		F528D138B2ABCBA954483B6D /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		F5BBBEB1622C6D11A5BA2DB9 /* Sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
+		F62B91ECD2D10A4160B2E55C /* ViewerGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewerGui.h; sourceTree = "<group>"; };
+		F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */ = {isa = PBXFileReference; path = caustic_distortion.ktx; sourceTree = "<group>"; };
+		F72B422556BF98393786B772 /* bitset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitset.h; sourceTree = "<group>"; };
+		F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragmataViewStore.swift; sourceTree = "<group>"; };
+		F7DFE6A2AA0A9855161C2BC9 /* AutomationSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomationSpec.h; sourceTree = "<group>"; };
+		F880F208640AFFAA4FCA8179 /* PragmataMacView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataMacView.h; sourceTree = "<group>"; };
+		FC61621959AB1E054E933BE6 /* ControlsINI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ControlsINI; path = ../configurator/Shared/ControlsINI; sourceTree = SOURCE_ROOT; };
+		FCE0A9CBBAE76A3816D09D8B /* BufferObjectStreamDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BufferObjectStreamDescriptor.h; sourceTree = "<group>"; };
+		FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */ = {isa = PBXFileReference; path = M_WarpBubble_metal.filamat; sourceTree = "<group>"; };
+		FD9C80FECF3932956EAC19BA /* hull_colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hull_colors.json; sourceTree = "<group>"; };
+		FE122D1AD00E3FDC80E86817 /* SurfaceOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurfaceOrientation.h; sourceTree = "<group>"; };
+		FE60655D0C34A64C8AF25D88 /* robin_set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = robin_set.h; sourceTree = "<group>"; };
+		FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */ = {isa = PBXFileReference; path = LiveryTwo.ktx; sourceTree = "<group>"; };
+		FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */ = {isa = PBXFileReference; path = T_N_PGAP_A.ktx; sourceTree = "<group>"; };
+		FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */ = {isa = PBXFileReference; path = water_caustics.ktx; sourceTree = "<group>"; };
+		FFC48A8E070BBDF87A0EA90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FFFAE8485EEC434E44122029 /* LruCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LruCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A52E4AA8085B9201A8D58E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC29C287368ADFBA41CB4A0 /* PragmataCore.xcframework in Frameworks */,
+				65D511FB7EC21F82CFCEB100 /* Metal.framework in Frameworks */,
+				0D49E46B6E837F922D0EE83B /* MetalKit.framework in Frameworks */,
+				8B8B7A4BAA8C8B55C8EC287C /* QuartzCore.framework in Frameworks */,
+				1B6507B54AA28B0E0B0D0074 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A54C87FE8AC97386345C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF44368D33D0067E1E96017 /* PragmataCore.xcframework in Frameworks */,
+				569DABBC8175717A91A55249 /* Metal.framework in Frameworks */,
+				24E25AFAD85DC04FAF01DAF8 /* MetalKit.framework in Frameworks */,
+				4DE5B6B88060AD681F57927A /* QuartzCore.framework in Frameworks */,
+				70C25BA1C105DCBE8F03189A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14548B440723F11541BCCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF46FA0AAE1D3CCF84F74D95 /* PragmataCore.xcframework in Frameworks */,
+				64EAA4540EFFE0243555DC6C /* Metal.framework in Frameworks */,
+				0C7EAF4C26F5CD2DF376D48E /* MetalKit.framework in Frameworks */,
+				795C37BB5293315B62366503 /* QuartzCore.framework in Frameworks */,
+				4EB2029D11651B630AD15130 /* UIKit.framework in Frameworks */,
+				C470ED39C8F9C31575D6EFB5 /* GameController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F7C785CDD8DDF1580E0271 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B70B626A138950474EE00081 /* App */,
+				BB5A64C06642B87E6B973328 /* UI */,
+			);
+			name = tvOS;
+			path = ../configurator/tvOS;
+			sourceTree = "<group>";
+		};
+		05D3002C63FDF8042C7673EC /* glslang */ = {
+			isa = PBXGroup;
+			children = (
+				5CBCAAFFF2FFF94CA837F0C4 /* build_info.h */,
+			);
+			path = glslang;
+			sourceTree = "<group>";
+		};
+		0930DF055CF1E9BF249B96A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD20CCCA16786917A8851073 /* AppDelegate.swift */,
+				FFC48A8E070BBDF87A0EA90D /* Info.plist */,
+				B61F150D8746CC7811D5BABD /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0C9D254962C50CA179A2AB11 /* HDR_environment */ = {
+			isa = PBXGroup;
+			children = (
+				D2948872CB3D559C6D9B66EC /* nebula_ibl */,
+				119B429341E8C58CC6AA7707 /* wooden_studio_08 */,
+				324AA687D0F89A748B48C666 /* sunny_ibl.ktx */,
+				1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */,
+			);
+			path = HDR_environment;
+			sourceTree = "<group>";
+		};
+		0FCBF7C9797B6C48840C583E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF324E939303C37397F619 /* backend */,
+				4301D4DF031F5246AC1B4B8E /* camutils */,
+				3904578876F743EC5DAB943B /* filamat */,
+				9B986C92C6774095995F9EC0 /* filament */,
+				11C6955D0CFD5B119FA10EE6 /* filament-generatePrefilterMipmap */,
+				95CC49DF7F1DFC70B2ADEDD7 /* filament-iblprefilter */,
+				C57071BB702A4F1700C45C88 /* filameshio */,
+				587171481674989080B8D965 /* geometry */,
+				05D3002C63FDF8042C7673EC /* glslang */,
+				6C01B65FD270258E263D3BD5 /* gltfio */,
+				96E7CC47DA30C98E420F44B6 /* ibl */,
+				27A05BCC0270FB6ABF1F33BA /* image */,
+				E036AB5419224F89030247BB /* imageio-lite */,
+				F678DE8EAE46F117A5D76AC7 /* ktxreader */,
+				F7589025CB68E75E594182F5 /* math */,
+				B6457F1E0F5176CD243D79AE /* mathio */,
+				92C0D2847A2D87F806F0CAFA /* mikktspace */,
+				C1A836A187462AF9C1CC328B /* tsl */,
+				40DD1B9D8119142918A56AD9 /* uberz */,
+				9C0F80C789D365161579EA2C /* utils */,
+				8612BB9AA8413A94A0DA49D5 /* viewer */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		119B429341E8C58CC6AA7707 /* wooden_studio_08 */ = {
+			isa = PBXGroup;
+			children = (
+				6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */,
+				C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */,
+			);
+			path = wooden_studio_08;
+			sourceTree = "<group>";
+		};
+		11C6955D0CFD5B119FA10EE6 /* filament-generatePrefilterMipmap */ = {
+			isa = PBXGroup;
+			children = (
+				BEB9E9B7B86E2AB0B072951F /* generatePrefilterMipmap.h */,
+			);
+			path = "filament-generatePrefilterMipmap";
+			sourceTree = "<group>";
+		};
+		1632155AF9F830D11BEB3271 /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */,
+				C676F86F4AAA206C9017157E /* rain_ripples.png */,
+			);
+			path = Rain;
+			sourceTree = "<group>";
+		};
+		19D88866B694377AA3545E2F /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				944C984BA469FCAB8F67EEC4 /* AppConfig.swift */,
+				CB595AC339323D9F0978866C /* AppLog.swift */,
+			);
+			name = Logging;
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		1D90F37978B5FA76CB1D57D5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				240C26E7C5B0F15FAC964BE2 /* Core */,
+				19D88866B694377AA3545E2F /* Logging */,
+				DA970C190B05B8FEEA64DEC7 /* Managers */,
+				A3339F5B40252A657D2C064C /* Resources */,
+				6E239D0255C921158CACA9AD /* UI */,
+				4257C79FA6ADD5BE734A9C41 /* Vendor */,
+				6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */,
+			);
+			name = Shared;
+			path = ../configurator/Shared;
+			sourceTree = "<group>";
+		};
+		1E9B3B05E28823D4570736D6 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				FD9C80FECF3932956EAC19BA /* hull_colors.json */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		240C26E7C5B0F15FAC964BE2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3C189C28900BAEA0A18228B7 /* AppLog.h */,
+				54DC67908A9AF88976709AC6 /* ConfiguratorKit.h */,
+				95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */,
+				37AD2890579B206AA0EB85B9 /* ConfiguratorKitCore.h */,
+				8FB425CC4011BC8AE0C4ED13 /* PragmataCoreDemo-Bridging-Header.h */,
+				DAFC57E61C7EB9952D077D73 /* PragmataCoreIOSBridge.h */,
+				46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */,
+				B9253CF33A9B3824EEC0D2BC /* PragmataView.h */,
+				888D75252AADA40BFBEE6709 /* PragmataView.mm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		27A05BCC0270FB6ABF1F33BA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				85B4344B2403734664919636 /* ColorTransform.h */,
+				388CCD37364CD87B7333D5C0 /* ImageOps.h */,
+				38361C51198364985C23FCAC /* ImageSampler.h */,
+				B3A4B81BEBBE6DD5365E4184 /* Ktx1Bundle.h */,
+				38D579832CAF57EC8B67C691 /* LinearImage.h */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		378A3F9972F2B9012F02113B /* platforms */ = {
+			isa = PBXGroup;
+			children = (
+				80016DBE498E629E21FC1611 /* AndroidNdk.h */,
+				4F84202C88907A5206563F78 /* OpenGLPlatform.h */,
+				37130254E87523C80DDC7414 /* PlatformCocoaGL.h */,
+				1D0AEEE8B0E1D10C6886346B /* PlatformCocoaTouchGL.h */,
+				063FF7ACCEB6CBC5464BF600 /* PlatformEGL.h */,
+				AD78071A39697E651C07754E /* PlatformEGLAndroid.h */,
+				B1E6B83A2F27E1AEA0C877C7 /* PlatformEGLHeadless.h */,
+				2F8D00DF2F5C703736378EFA /* PlatformGLX.h */,
+				1ED53F13EB9F631FCD39137C /* PlatformMetal-ObjC.h */,
+				5D32F223AAA9A1C8A438B55C /* PlatformMetal.h */,
+				07ECEB77E650ED9FFA3ABC85 /* PlatformOSMesa.h */,
+				540DB81C5250C42A6170D563 /* PlatformWebGL.h */,
+				C37D5502209DCDA692CC2E96 /* PlatformWGL.h */,
+				B6161A223C1DEA4BE52A33AA /* VulkanPlatform.h */,
+				A6F889B82BAE887E87D07C7E /* VulkanPlatformAndroid.h */,
+				C6A6DFC9E8EE84E6E515C619 /* VulkanPlatformApple.h */,
+				37E8ADA8F8142CE98CCC8075 /* VulkanPlatformLinux.h */,
+				E8CEFADF3B6BC8E42888282C /* VulkanPlatformWindows.h */,
+				862C894C2A6530E31D198318 /* WebGPUPlatform.h */,
+				6A5F57A8B7FCB92075F56650 /* WebGPUPlatformAndroid.h */,
+				4E44F2235D2F43AB6F062793 /* WebGPUPlatformApple.h */,
+				0F7C170E23617C55A0BAAA40 /* WebGPUPlatformLinux.h */,
+				B6255273DC5EE62D4A5BC67C /* WebGPUPlatformWindows.h */,
+			);
+			path = platforms;
+			sourceTree = "<group>";
+		};
+		3904578876F743EC5DAB943B /* filamat */ = {
+			isa = PBXGroup;
+			children = (
+				BFA74873DC266099E0C29B58 /* Enums.h */,
+				46EB68A7D66F6B652CD04E63 /* MaterialBuilder.h */,
+				035F74EA4B7A2216F01CA3F2 /* Package.h */,
+			);
+			path = filamat;
+			sourceTree = "<group>";
+		};
+		39ADE25498D7300EB48EFB20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				949364A4BDC099E783757084 /* LaunchScreen.storyboard */,
+				A9072098F68431185E6ADB71 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40DD1B9D8119142918A56AD9 /* uberz */ = {
+			isa = PBXGroup;
+			children = (
+				67E0727B5D326F3AC6119C80 /* ArchiveEnums.h */,
+				6EC48F58C977F85B666C83F3 /* ReadableArchive.h */,
+				C9E130135679A88F1D283AC2 /* WritableArchive.h */,
+			);
+			path = uberz;
+			sourceTree = "<group>";
+		};
+		4257C79FA6ADD5BE734A9C41 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0FCBF7C9797B6C48840C583E /* include */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4301D4DF031F5246AC1B4B8E /* camutils */ = {
+			isa = PBXGroup;
+			children = (
+				AC60AEDF281FEE4753500A9D /* Bookmark.h */,
+				9A17DC5AB22B5D6A83A17C23 /* compiler.h */,
+				7EE780DEA47D64FF32479CA2 /* Manipulator.h */,
+			);
+			path = camutils;
+			sourceTree = "<group>";
+		};
+		44391896DE60FE2EFC1743C3 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				9EB3E0BAE53165322F7FBD2B /* Deck */,
+				DD29D9F79F5D83DD42D10298 /* P_426 */,
+				1632155AF9F830D11BEB3271 /* Rain */,
+				70DF1B6786FFA0BC897EE144 /* SandFloor */,
+				FFC23B20539744C72BDF1F7B /* WarpBubble */,
+				632756726FB2F1442C0DEB84 /* Water */,
+				76013C105438DBFE19B30DC3 /* Wood */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		51D5C90C2BB7DA9B88E3730A = {
+			isa = PBXGroup;
+			children = (
+				B8F55A7873FBA9F4875ADFDB /* iOS */,
+				AE00B05EFD7349EA97B06FEE /* macOS */,
+				1D90F37978B5FA76CB1D57D5 /* Shared */,
+				03F7C785CDD8DDF1580E0271 /* tvOS */,
+				FC61621959AB1E054E933BE6 /* ControlsINI */,
+				5362DB346A8B0FC413DFBF6E /* Materials */,
+				EC78BD4B3FD12CE4B25F0103 /* MaterialsDesktop */,
+				485A43E01962A73B9B2726CF /* SandFloor */,
+				B26C639E04D0D02833C44078 /* WaterMaterial */,
+				13F87D4569D3799C4BC14543 /* xRayMaterial */,
+				B6935EF446165F7E11F3A7C2 /* Frameworks */,
+				A2E21313DCB852137581A4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587171481674989080B8D965 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				FE122D1AD00E3FDC80E86817 /* SurfaceOrientation.h */,
+				198AB3CB49EC3B116AEDE009 /* TangentSpaceMesh.h */,
+				D1F921397C56F18DB9930354 /* Transcoder.h */,
+			);
+			path = geometry;
+			sourceTree = "<group>";
+		};
+		60BB6937373039472AEE0BCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD21AC9600EFF3604F01CACA /* AppDelegate.swift */,
+				15D235E8A832FE612CA352EA /* FullScreenHostingController.swift */,
+				E5720E237937EFF9D6F64D48 /* Info.plist */,
+				F1C3F0CFAB825725B51797FC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		632756726FB2F1442C0DEB84 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */,
+				B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */,
+				B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */,
+				94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */,
+				FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		6C01B65FD270258E263D3BD5 /* gltfio */ = {
+			isa = PBXGroup;
+			children = (
+				898948205F37B6E11E771A9D /* materials */,
+				0FC3CF5487B792FB1467999B /* Animator.h */,
+				8A15E8C0A553C07F817045C1 /* AssetLoader.h */,
+				DD0FE9B4ACB7FA5811FF45DE /* FilamentAsset.h */,
+				42A2CCABEEF6CF89750FD685 /* FilamentInstance.h */,
+				2549B02E31D10013B9436379 /* MaterialProvider.h */,
+				27BDDDE64289B5CE02705E83 /* math.h */,
+				C8B8C2F64E46FDA7F2AFDA61 /* NodeManager.h */,
+				43B0F43A0D489C85AC947BDD /* ResourceLoader.h */,
+				CC3DE1DDBEC6596F988D59C0 /* TextureProvider.h */,
+				82EC7236B824C049D5251056 /* TrsTransformManager.h */,
+			);
+			path = gltfio;
+			sourceTree = "<group>";
+		};
+		6E239D0255C921158CACA9AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EE92F8B907BFF81518BC0BDB /* AppTheme.swift */,
+				EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */,
+				7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */,
+				AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */,
+				F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */,
+				5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */,
+				40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		70DF1B6786FFA0BC897EE144 /* SandFloor */ = {
+			isa = PBXGroup;
+			children = (
+				AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */,
+			);
+			path = SandFloor;
+			sourceTree = "<group>";
+		};
+		76013C105438DBFE19B30DC3 /* Wood */ = {
+			isa = PBXGroup;
+			children = (
+				8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */,
+				64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */,
+			);
+			path = Wood;
+			sourceTree = "<group>";
+		};
+		8612BB9AA8413A94A0DA49D5 /* viewer */ = {
+			isa = PBXGroup;
+			children = (
+				D4D24BCA5D33B08520A2E4C8 /* AutomationEngine.h */,
+				F7DFE6A2AA0A9855161C2BC9 /* AutomationSpec.h */,
+				1BE6E650F08A1D8514A53B1B /* RemoteServer.h */,
+				C5821519138F620740363548 /* Settings.h */,
+				F62B91ECD2D10A4160B2E55C /* ViewerGui.h */,
+			);
+			path = viewer;
+			sourceTree = "<group>";
+		};
+		898948205F37B6E11E771A9D /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				2C49A82FABEEA064BE0AC91A /* uberarchive.h */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+		92C0D2847A2D87F806F0CAFA /* mikktspace */ = {
+			isa = PBXGroup;
+			children = (
+				3C351D87F80570E92CDD4013 /* mikktspace.h */,
+			);
+			path = mikktspace;
+			sourceTree = "<group>";
+		};
+		949A56591E7DDDFB9BC1424C /* 3DAssets */ = {
+			isa = PBXGroup;
+			children = (
+				16C26905C69613272DFB707C /* debug_axes.glb */,
+				D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */,
+				8F9A1650451D43751BF98904 /* PCraft400Interior.glb */,
+				C6E6D374032F992D5D164669 /* rainDropplet.glb */,
+				8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */,
+				21AFC81845B1EA7722470169 /* SM_hangar.glb */,
+				0699198028D331C971E62E6B /* SM_SkySphere.glb */,
+				CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */,
+				80814C07DEF6997FDA328428 /* WaterMountains.glb */,
+			);
+			path = 3DAssets;
+			sourceTree = "<group>";
+		};
+		95CC49DF7F1DFC70B2ADEDD7 /* filament-iblprefilter */ = {
+			isa = PBXGroup;
+			children = (
+				E881E6DB2DD531105D963F5C /* IBLPrefilterContext.h */,
+			);
+			path = "filament-iblprefilter";
+			sourceTree = "<group>";
+		};
+		96E7CC47DA30C98E420F44B6 /* ibl */ = {
+			isa = PBXGroup;
+			children = (
+				77EDC6FCEEAACE51252B1C37 /* Cubemap.h */,
+				4CCBC282105BC4FCE9959164 /* CubemapIBL.h */,
+				C67A13316325E7DFBA59B820 /* CubemapSH.h */,
+				556096A97FAA333DDB65B21B /* CubemapUtils.h */,
+				D1D634E5876689FE706C3A28 /* Image.h */,
+				DF673BCFA186B76DCD8ADAD0 /* utilities.h */,
+			);
+			path = ibl;
+			sourceTree = "<group>";
+		};
+		9B986C92C6774095995F9EC0 /* filament */ = {
+			isa = PBXGroup;
+			children = (
+				1BB1D42E328A1911CAF25B87 /* Box.h */,
+				278FFAF40C3D64F4C4FF8C5F /* BufferObject.h */,
+				4316561333B472F8704FBCC9 /* Camera.h */,
+				59F110D3D4953CDB5832FA4A /* Color.h */,
+				7EEF96939D41749BF5F33983 /* ColorGrading.h */,
+				867C701139617858409EC419 /* ColorSpace.h */,
+				BDFE8BE4DE76E7F5E9BCF6FB /* DebugRegistry.h */,
+				BB330365203D8B170530AA6F /* Engine.h */,
+				E8C8EC505D2D0923D64138D5 /* Exposure.h */,
+				2A463CC4D42C8C2280AE295E /* Fence.h */,
+				935C29A406721C0A0856B752 /* FilamentAPI.h */,
+				E1B4B9DF952E7AA828699C4A /* Frustum.h */,
+				9E902B470B7E30E90619C77B /* IndexBuffer.h */,
+				970FB6363D45DF983B8C29F6 /* IndirectLight.h */,
+				99115164789B4BE6F7A5D6D9 /* InstanceBuffer.h */,
+				1E5BF5B1314CEA8760833A7A /* LightManager.h */,
+				B31E6990B0319B19A9093FB8 /* Material.h */,
+				26B091A2302D9E7A7FA14137 /* MaterialChunkType.h */,
+				D18050D94ACB086E30A02FA8 /* MaterialEnums.h */,
+				62C569A569A4B39CC5B966A5 /* MaterialInstance.h */,
+				4603F66F468E74804AB208B2 /* MorphTargetBuffer.h */,
+				1810FE36E4DCC38909A60EB5 /* Options.h */,
+				B64CC164C1760FE7AA87799C /* RenderableManager.h */,
+				76A404FA14923F6499DB936B /* Renderer.h */,
+				1225F1B54E93C9874F6BB82B /* RenderTarget.h */,
+				82C9E0D09B5AA4310046C889 /* Scene.h */,
+				5B0AB64B60CA207C3A0700D6 /* SkinningBuffer.h */,
+				1BCE0D075F52CA6E3D3A5F9F /* Skybox.h */,
+				7A5609FECD2238EB32EAD9DF /* Stream.h */,
+				7CE9E64F836A681867E3E4E5 /* SwapChain.h */,
+				F5BBBEB1622C6D11A5BA2DB9 /* Sync.h */,
+				9F4BB7740FD6B7BBDF8325E7 /* Texture.h */,
+				1C2592F30458E886AA2E538C /* TextureSampler.h */,
+				AABE916989A616E71C1D16E7 /* ToneMapper.h */,
+				EA605A0991A9F83EE04FD5BE /* TransformManager.h */,
+				26FFBF60E6F8FEC4B009AF23 /* VertexBuffer.h */,
+				9F88C92CE71DE9664A2A3B83 /* View.h */,
+				15A2B1B80B0CD3EC7F3A4DCF /* Viewport.h */,
+			);
+			path = filament;
+			sourceTree = "<group>";
+		};
+		9C0F80C789D365161579EA2C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8A13D36A2C7C84047145DE7 /* generic */,
+				8935A3C464CB5BC43E936BDF /* algorithm.h */,
+				43AF6CEE3B44E001646C7746 /* Allocator.h */,
+				8FB95696B95988666C018956 /* BitmaskEnum.h */,
+				F72B422556BF98393786B772 /* bitset.h */,
+				886FC67012BA5AC9F4C5335D /* CallStack.h */,
+				D26343839106DE13598F870F /* compiler.h */,
+				92036601E05DFDB984770767 /* compressed_pair.h */,
+				5A62B1521ED5EAA3AFEF110F /* CString.h */,
+				681B09EC82D4F3757CF63F98 /* debug.h */,
+				7302AD9D141E71574F0C860A /* Entity.h */,
+				412FAF411907E7C34D0B9FAC /* EntityInstance.h */,
+				9B4B5E5C89D39BA9EC6E69E3 /* EntityManager.h */,
+				D876B6E1D74E7F87EB950343 /* FixedCapacityVector.h */,
+				342E48D7F4F9CD6A66D3AA1B /* getopt.h */,
+				35A5D9417114FD8B0D4E08DE /* Hash.h */,
+				919D908EFED5657402175363 /* ImmutableCString.h */,
+				517EF85E4DCB61CF140B4606 /* InternPool.h */,
+				5F143C9B6B64CF5F10BEE026 /* Invocable.h */,
+				7540C8FAB0E3548599CA3874 /* Log.h */,
+				4EC2BB3BF83C0669A81585EB /* Logger.h */,
+				FFFAE8485EEC434E44122029 /* LruCache.h */,
+				A16B9617DD78BD2C8EC5CE85 /* memalign.h */,
+				EC700EF9077E78380D3CEC46 /* MonotonicRingMap.h */,
+				D10DA7C5F346EF0AF049E67B /* Mutex.h */,
+				139EF2731EABDDA80FD9EFF6 /* NameComponentManager.h */,
+				520F37C09986498E4D5E440E /* ostream.h */,
+				201A49B1A32E15FD179EEA31 /* Panic.h */,
+				489E80CC65F475C8D7C6628C /* Path.h */,
+				4CB35EDD628BF93150070217 /* PrivateImplementation-impl.h */,
+				306FF526F515856E69C218B3 /* PrivateImplementation.h */,
+				2A215A81C9B7F22CBCD6D535 /* RefCountedMap.h */,
+				21088D3432ECAF5A59EA08FF /* SingleInstanceComponentManager.h */,
+				CBB46E85908D6ABA107A9462 /* Slice.h */,
+				B805C5C63FAB6BFB6831840E /* sstream.h */,
+				DFE9ABB05B62F4443986F3B4 /* StaticString.h */,
+				78FCF0DE35E4789655184476 /* Status.h */,
+				860EABFB5316D5552E4F67E6 /* StructureOfArrays.h */,
+				A4FA53FCD6C02BA753497DF4 /* Systrace.h */,
+				31AF74020E2A0807D318D2D6 /* tribool.h */,
+				218085565D3012DCDF84A5B5 /* unwindows.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9EB3E0BAE53165322F7FBD2B /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				55D195242FAF882509E095CE /* T_floor_eshtec.ktx */,
+				73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */,
+				BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		A2E21313DCB852137581A4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */,
+				B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */,
+				89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3339F5B40252A657D2C064C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				949A56591E7DDDFB9BC1424C /* 3DAssets */,
+				1E9B3B05E28823D4570736D6 /* Catalog */,
+				0C9D254962C50CA179A2AB11 /* HDR_environment */,
+				E908327376D59E3E1D4CAA1F /* MaterialsDesktop */,
+				44391896DE60FE2EFC1743C3 /* Textures */,
+				EF46652A494B4D0A237FEEEE /* Assets.xcassets */,
+				611418DA2473DB934C9EB18A /* cameras.ini */,
+				7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE00B05EFD7349EA97B06FEE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0930DF055CF1E9BF249B96A3 /* App */,
+				E8ADBCD1D752282DCFEAF27B /* UI */,
+			);
+			name = macOS;
+			path = ../configurator/macOS;
+			sourceTree = "<group>";
+		};
+		B6457F1E0F5176CD243D79AE /* mathio */ = {
+			isa = PBXGroup;
+			children = (
+				5370E8BF1FB0CD49EA7E8353 /* ostream.h */,
+			);
+			path = mathio;
+			sourceTree = "<group>";
+		};
+		B6935EF446165F7E11F3A7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D4BED9EE831B3208A50FFD0 /* AppKit.framework */,
+				F528D138B2ABCBA954483B6D /* GameController.framework */,
+				E37C834789C5EB050643E752 /* Metal.framework */,
+				055519A0F5B7D32E0E0E1347 /* MetalKit.framework */,
+				78219BF8AE56D9EAAA6472BA /* PragmataCore.xcframework */,
+				2498500867B6D1A5B44CC2CF /* QuartzCore.framework */,
+				81E46514879AB3DCB402DB42 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70B626A138950474EE00081 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5F370946B8A95A93B9E451BA /* AppDelegate.swift */,
+				ABDEAFCED709D8FED45E69BD /* Info.plist */,
+				66F92A02457B48CFB47DB093 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B8F55A7873FBA9F4875ADFDB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60BB6937373039472AEE0BCC /* App */,
+				39ADE25498D7300EB48EFB20 /* Resources */,
+				D5281F839B913A2EDFFF7A86 /* UI */,
+			);
+			name = iOS;
+			path = ../configurator/iOS;
+			sourceTree = "<group>";
+		};
+		BB5A64C06642B87E6B973328 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7E6204F48DE6720EA722 /* SiriRemoteObserver.swift */,
+				705DE5B51544140857400968 /* TVOSBoatConfiguratorView.swift */,
+				AC7868DA8B2D4C87ABC539EB /* TVOSMainView.swift */,
+				7C185795B00F6C2004CEDDA9 /* UIComponents.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C1A836A187462AF9C1CC328B /* tsl */ = {
+			isa = PBXGroup;
+			children = (
+				63C43A84A20D4CE00924D1B3 /* robin_growth_policy.h */,
+				4C889954A6DC706234EFBD19 /* robin_hash.h */,
+				0550A275B4FC2ECA0B84DF32 /* robin_map.h */,
+				FE60655D0C34A64C8AF25D88 /* robin_set.h */,
+			);
+			path = tsl;
+			sourceTree = "<group>";
+		};
+		C57071BB702A4F1700C45C88 /* filameshio */ = {
+			isa = PBXGroup;
+			children = (
+				71588E44070292AEC389350D /* MeshReader.h */,
+			);
+			path = filameshio;
+			sourceTree = "<group>";
+		};
+		D2948872CB3D559C6D9B66EC /* nebula_ibl */ = {
+			isa = PBXGroup;
+			children = (
+				B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */,
+				8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */,
+				4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */,
+			);
+			path = nebula_ibl;
+			sourceTree = "<group>";
+		};
+		D5281F839B913A2EDFFF7A86 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C08FD9C63B916AB43369A /* FilamentView.swift */,
+				91C67AF3E3CDD681ECA6BCFA /* iOSConfiguratorComponents.swift */,
+				5C5C4F40D481FE66142B8C5E /* iPadBoatConfiguratorView.swift */,
+				B08AE1AB211D1C2BCFDE32F1 /* TopViewButton.swift */,
+				C40F5E9CBF88125B2835BD66 /* ViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DA970C190B05B8FEEA64DEC7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6404D03E3D0307DAD216615C /* ManifestLoader.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DD29D9F79F5D83DD42D10298 /* P_426 */ = {
+			isa = PBXGroup;
+			children = (
+				6121599BF1408A2A3509EAFA /* LiveryOne.ktx */,
+				FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */,
+				D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */,
+				8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */,
+				D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */,
+				FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */,
+				0004EA96468344622C9E405E /* T_Roughness.ktx */,
+			);
+			path = P_426;
+			sourceTree = "<group>";
+		};
+		E036AB5419224F89030247BB /* imageio-lite */ = {
+			isa = PBXGroup;
+			children = (
+				ED0EB8D6CD56CB95B2F20450 /* ImageDecoder.h */,
+				4437E4E59B7559C7D47E9015 /* ImageEncoder.h */,
+			);
+			path = "imageio-lite";
+			sourceTree = "<group>";
+		};
+		E0BF324E939303C37397F619 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				378A3F9972F2B9012F02113B /* platforms */,
+				044036430CEC4758C15611AB /* AcquiredImage.h */,
+				4B1A662E9EEBA15013816795 /* BufferDescriptor.h */,
+				FCE0A9CBBAE76A3816D09D8B /* BufferObjectStreamDescriptor.h */,
+				A880FAD6B95CA1021E7AD0BC /* CallbackHandler.h */,
+				5021A0B720A2EEA10878C2AF /* DescriptorSetOffsetArray.h */,
+				48DEEC4F6304D27A107114A2 /* DriverApiForward.h */,
+				8C66968620771E7E4A94B300 /* DriverEnums.h */,
+				9E04E347CA80A3A451AF8A19 /* Handle.h */,
+				48CCD749A5AF1FD433CE236B /* PipelineState.h */,
+				3BD7302B0B779EAC1158370D /* PixelBufferDescriptor.h */,
+				BCE3B002ECF43ED3C0DC8981 /* Platform.h */,
+				28748D1ABF8024DF61A0B1F2 /* PresentCallable.h */,
+				CE3D1A6B9B060A1C7B5C73E6 /* Program.h */,
+				DDAC1FCD95E722E208C54337 /* README.md */,
+				D46B7D5AE36AE2FA245A6BB7 /* SamplerDescriptor.h */,
+				D2D8342C7655295D648E7484 /* TargetBufferInfo.h */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		E8A13D36A2C7C84047145DE7 /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				5FBF133D8DDD8573890D1038 /* Mutex.h */,
+			);
+			path = generic;
+			sourceTree = "<group>";
+		};
+		E8ADBCD1D752282DCFEAF27B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E33D155AAD351A66A7E97A34 /* MacConfiguratorView.swift */,
+				F880F208640AFFAA4FCA8179 /* PragmataMacView.h */,
+				10C0EE229A2D9CCA9826F764 /* PragmataMacView.mm */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E908327376D59E3E1D4CAA1F /* MaterialsDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */,
+				E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */,
+				4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */,
+				4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */,
+				13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */,
+				FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */,
+				2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */,
+				F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */,
+				136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */,
+				C2C8551324A5B4299222F650 /* raineffect_metal.filamat */,
+				015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */,
+				3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */,
+				1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */,
+				1588FF3F4FECBFB31C30D94A /* water_metal.filamat */,
+			);
+			path = MaterialsDesktop;
+			sourceTree = "<group>";
+		};
+		F678DE8EAE46F117A5D76AC7 /* ktxreader */ = {
+			isa = PBXGroup;
+			children = (
+				74EA676FA9B030A5D9D846C7 /* Ktx1Reader.h */,
+				A0A09096E1713924A3AEE507 /* Ktx2Reader.h */,
+			);
+			path = ktxreader;
+			sourceTree = "<group>";
+		};
+		F7589025CB68E75E594182F5 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				D0243C4409EBBBE46D52FB01 /* compiler.h */,
+				39930AEE3591D54071062951 /* fast.h */,
+				9715740F2B68D151DD2E71CD /* half.h */,
+				4E1DF0F7C48C0F317AA5CE34 /* mat2.h */,
+				F1C24022071CA6E46ACC3DBB /* mat3.h */,
+				0D872484887ED1A12F1FEB56 /* mat4.h */,
+				25F89FCC03CF2F999B92B03F /* mathfwd.h */,
+				8118000FB6268E001094DB87 /* norm.h */,
+				3EC2172AF40939C15599C188 /* quat.h */,
+				F25787E85DC6D23CD673DC22 /* scalar.h */,
+				BAB8C2A4990C3675AD15382E /* TMatHelpers.h */,
+				E0177DCE88BAF957C7A754C5 /* TQuatHelpers.h */,
+				6F42BCB155315181D9C0EC5C /* TVecHelpers.h */,
+				EA212174F4C750DF13955C2F /* vec2.h */,
+				160B814CED2B09D751115386 /* vec3.h */,
+				D6994B2F3187531E941348CB /* vec4.h */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		FFC23B20539744C72BDF1F7B /* WarpBubble */ = {
+			isa = PBXGroup;
+			children = (
+				CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */,
+				3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */,
+			);
+			path = WarpBubble;
+			sourceTree = "<group>";
+		};
+		"TEMP_44C4DAD2-E2DB-4E54-9C24-4A5801583506" /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043ED04C4124EB5D56973C50 /* PragmataCoreShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E14881D01B12C72C21E0C4E /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase" */;
+			buildPhases = (
+				193CF46691595359FB320392 /* Sources */,
+				E5E3F797B29EF8F89E9AF027 /* Resources */,
+				62A54C87FE8AC97386345C76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PragmataCoreShowcase;
+			packageProductDependencies = (
+			);
+			productName = PragmataCoreShowcase;
+			productReference = 89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38FB939B0CFEDB48C3E9BC1A /* PragmataCoreShowcase-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25907938929241355FD7664F /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase-tvOS" */;
+			buildPhases = (
+				C6720E858F1F00F479E131AA /* Sources */,
+				8D06000C5F3F62A8BBEB4D14 /* Resources */,
+				B14548B440723F11541BCCAB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PragmataCoreShowcase-tvOS";
+			packageProductDependencies = (
+			);
+			productName = "PragmataCoreShowcase-tvOS";
+			productReference = B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9804D62C6F74DDC90360B705 /* PragmataCoreShowcase-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD571ABD34F025489E6BA168 /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase-macOS" */;
+			buildPhases = (
+				B3D10F8404BF7504E3117357 /* Sources */,
+				C1F14867DCF8BA870FC0E1CD /* Resources */,
+				3A52E4AA8085B9201A8D58E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PragmataCoreShowcase-macOS";
+			packageProductDependencies = (
+			);
+			productName = "PragmataCoreShowcase-macOS";
+			productReference = 8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6844C1EC3B581589B5300300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					043ED04C4124EB5D56973C50 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					38FB939B0CFEDB48C3E9BC1A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					9804D62C6F74DDC90360B705 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D3A2F48B16CE33BE1192F42 /* Build configuration list for PBXProject "PragmataCoreShowcase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 51D5C90C2BB7DA9B88E3730A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043ED04C4124EB5D56973C50 /* PragmataCoreShowcase */,
+				9804D62C6F74DDC90360B705 /* PragmataCoreShowcase-macOS */,
+				38FB939B0CFEDB48C3E9BC1A /* PragmataCoreShowcase-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D06000C5F3F62A8BBEB4D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1013FDEA21A580D97B176B0B /* Assets.xcassets in Resources */,
+				93AA8DEA5046107466C254A8 /* ControlsINI in Resources */,
+				A3BBA99E8606F17C7BF8F8EB /* LiveryOne.ktx in Resources */,
+				B6972B03656F9754B254DBCE /* LiveryTwo.ktx in Resources */,
+				DC8575F49548C50DBB6E75AD /* M_CarPaint_metal.filamat in Resources */,
+				7702DD5B35CEE9B06DEEF997 /* M_Decals_metal.filamat in Resources */,
+				93488FE2367199C34C90ED18 /* M_Glass_metal.filamat in Resources */,
+				A3A86726A6CA95258BB3C740 /* M_HexMesh_metal.filamat in Resources */,
+				FA481A099AB0DE78B1200CF6 /* M_PanelGap_metal.filamat in Resources */,
+				742C0DB5D89CEF24DC346442 /* M_WarpBubble_metal.filamat in Resources */,
+				0F76728E3E72975EFEC6D0A3 /* M_xrayshader_metal.filamat in Resources */,
+				0CBD2160193B8846224D67DD /* Materials in Resources */,
+				2CE0C23A4D7A0C5609FB3CFD /* MetalPainted_metal.filamat in Resources */,
+				16B2D0F447E7918C622993DF /* PCraft400.glb in Resources */,
+				6B343856EC02EE704081F3E3 /* PCraft400Interior.glb in Resources */,
+				434D378A12FB62EF74B2CE28 /* PT_NorXYFoMask.ktx in Resources */,
+				4F40E623CCC4871C241BE34D /* PT_NorXYFoMask.ktx2 in Resources */,
+				130DB54905F787A3A09093AD /* PrivacyInfo.xcprivacy in Resources */,
+				6BE825A425D1A2D72B00621C /* README.md in Resources */,
+				791A293537A1CD576ABA675A /* SM_SkySphere.glb in Resources */,
+				5C54AD905A50BF676558F8BE /* SM_hangar.glb in Resources */,
+				8EB6D915F40169BA0481E676 /* SM_warpbubble.glb in Resources */,
+				2A076C85AA106416C1DE75BA /* SandFloor in Resources */,
+				1C9FFB1A520B1597AC35BAF8 /* T_D_Decals.ktx in Resources */,
+				9C9CAD05E757ADDE2DD0519B /* T_Mesh.ktx in Resources */,
+				0E76896D1439833B8C8D330D /* T_N_MetalFlakes.ktx in Resources */,
+				8B52755601923A1D5CD662F7 /* T_N_PGAP_A.ktx in Resources */,
+				A3DF0CC9E04434678B4B6FC0 /* T_Panel_teak.ktx in Resources */,
+				7E863CE3C43021A88823B895 /* T_Panel_wood.ktx in Resources */,
+				DA738FF8556015167349B35D /* T_Roughness.ktx in Resources */,
+				FBFA46DF14B756F82CBCFB62 /* T_StreakMask.ktx in Resources */,
+				2853B5C6E55B456010F66BD4 /* T_Warp_LiTemNoise12.ktx in Resources */,
+				795EDFAD11D724035A3F2780 /* T_floor_eshtec.ktx in Resources */,
+				AB8D0DCD6F9B6B4B18FE9918 /* T_floor_teak.ktx in Resources */,
+				2A3E5149AE2640928B3C145B /* T_floor_udeck.ktx in Resources */,
+				DB57304760A68B1FEACAA0E6 /* T_sand.ktx in Resources */,
+				B0B81E826B009E9CE0058722 /* WaterMaterial in Resources */,
+				A34B45ED977147F6A787BD59 /* WaterMountains.glb in Resources */,
+				7E20E748D0F9B61723935895 /* cameras.ini in Resources */,
+				A657B22F5C55B9C7AE5CDA17 /* caustic_distortion.ktx in Resources */,
+				5165FF9EF9075A7E57CA21A8 /* configuration.json in Resources */,
+				86457E80F75F014B3AAB3E7B /* debug_axes.glb in Resources */,
+				BF24D4D6EE89003771DD9FA6 /* hull_colors.json in Resources */,
+				26253844457FEB3A566C93E6 /* nebula_ibl_ibl.ktx in Resources */,
+				A8F2D945165E3236E2878105 /* nebula_ibl_skybox.ktx in Resources */,
+				DC92F265A4FA454971ECCBF6 /* nebula_sh.txt in Resources */,
+				4FCCA2AE583623E740826CD4 /* normaldebug_metal.filamat in Resources */,
+				880AB70C595FF2125315618C /* rainDropplet.glb in Resources */,
+				A0D800742A51B2556FCCE23A /* rain_ripples.ktx2 in Resources */,
+				70A6A4E0CA3FA4E5151CC381 /* rain_ripples.png in Resources */,
+				5D5DDD33AE0F3C13879C3FF8 /* raineffect_metal.filamat in Resources */,
+				DF8B42991406BE3BF8852A69 /* sandFloor_optimized.glb in Resources */,
+				AE48FA68B6219E716E7B2209 /* seafloor_parametric_metal.filamat in Resources */,
+				CC3AC56F95E8F579DFBD0ED0 /* skybox_gradient_metal.filamat in Resources */,
+				438D759BF635F9D8989CC4B8 /* sunny_ibl.ktx in Resources */,
+				BA9DB5A0547C73529F69C01E /* sunny_sh.txt in Resources */,
+				75B27211B621FEA2B826FEA3 /* unlit_metal.filamat in Resources */,
+				F3EFB5AE61590BB2503FDCE0 /* water_alpha.ktx in Resources */,
+				60E07FEBACCCDCBF49305C18 /* water_caustics.ktx in Resources */,
+				42FDFF77697E56CD5842C2F0 /* water_metal.filamat in Resources */,
+				74BD4F9BDBBC6DA13D2BBF22 /* wooden_studio_08_ibl.ktx in Resources */,
+				3EF1AE04A3FD8244B4433C50 /* wooden_studio_08_sh.txt in Resources */,
+				5C4CFF7EC0BE4C456B3CCBA6 /* xRayMaterial in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F14867DCF8BA870FC0E1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552794A5A1967538F940DFF0 /* Assets.xcassets in Resources */,
+				F29EC4CA7A55EFAA651F4716 /* ControlsINI in Resources */,
+				B0F7FAA4776AB1FC09AE5B59 /* LiveryOne.ktx in Resources */,
+				7D8BDE4EE4B2FF3FC0DF9AB9 /* LiveryTwo.ktx in Resources */,
+				FBEB119FBFC47CD392B163F7 /* M_CarPaint_metal.filamat in Resources */,
+				A99DF3B8FABC0BCFDE47328B /* M_Decals_metal.filamat in Resources */,
+				E0EA77273EA4D04F03A4D53F /* M_Glass_metal.filamat in Resources */,
+				10426F7F626D0B5974172D9A /* M_HexMesh_metal.filamat in Resources */,
+				11355AF4C333FB6C8FBB8BE6 /* M_PanelGap_metal.filamat in Resources */,
+				331AC1FBCFA3226CD9110CD4 /* M_WarpBubble_metal.filamat in Resources */,
+				014C54146BC843B019CF31E4 /* M_xrayshader_metal.filamat in Resources */,
+				9338DAE7BCD6E66FB007877A /* Materials in Resources */,
+				37CA98580DD5B7C903EACAE1 /* MaterialsDesktop in Resources */,
+				720C00E8024FD78DBAF37B42 /* MetalPainted_metal.filamat in Resources */,
+				23D7FF3A3B353F985500ADC6 /* PCraft400.glb in Resources */,
+				DE8D6321EE4DEC8370934E54 /* PCraft400Interior.glb in Resources */,
+				DFA91BF4BADBE1501380027C /* PT_NorXYFoMask.ktx in Resources */,
+				027402ADAA792E0FB3782BBE /* PT_NorXYFoMask.ktx2 in Resources */,
+				46A2EEC3AC9D47BC208214EA /* PrivacyInfo.xcprivacy in Resources */,
+				C16B7D20F91D7F0B11E500B0 /* README.md in Resources */,
+				7C17FC6D79C8D650ABE6C332 /* SM_SkySphere.glb in Resources */,
+				89F58834CFDCC1904D3FDCB1 /* SM_hangar.glb in Resources */,
+				31926047615CE9876F0C9435 /* SM_warpbubble.glb in Resources */,
+				2404BC76A7C7E4D46AECFA1A /* SandFloor in Resources */,
+				5695E54EDB22256973D5EA4A /* T_D_Decals.ktx in Resources */,
+				EA88B3E97663ABFE9858C551 /* T_Mesh.ktx in Resources */,
+				427181D47396CD0640088B79 /* T_N_MetalFlakes.ktx in Resources */,
+				F2B235BEF0866F06FA9997BF /* T_N_PGAP_A.ktx in Resources */,
+				EBFE181AC1F31E0442758D9B /* T_Panel_teak.ktx in Resources */,
+				CEEE8EC657D4EA25CCAD45AE /* T_Panel_wood.ktx in Resources */,
+				8DE6CF073DB2266CCCB5FA44 /* T_Roughness.ktx in Resources */,
+				2AA9B54ADB21271DEA68281A /* T_StreakMask.ktx in Resources */,
+				C2D0D6D28C8DBF95EF95D655 /* T_Warp_LiTemNoise12.ktx in Resources */,
+				79F1DB3639A21DE0699A440C /* T_floor_eshtec.ktx in Resources */,
+				CD008328BFE8D1AC4B71AE81 /* T_floor_teak.ktx in Resources */,
+				04851735E10E56C1E4AB7ADA /* T_floor_udeck.ktx in Resources */,
+				B72FDE72B0E43FDFE6A4765B /* T_sand.ktx in Resources */,
+				F9C3B79BFD8CB94C514E38CD /* WaterMaterial in Resources */,
+				723D2E2B7DFB76BAD2B83938 /* WaterMountains.glb in Resources */,
+				D45169769601653903CAE49D /* cameras.ini in Resources */,
+				946965F2AC99094BDDCECE69 /* caustic_distortion.ktx in Resources */,
+				BE20B0623F55C7F64504A1CA /* configuration.json in Resources */,
+				FF93C6A0C247F00ADC601BBC /* debug_axes.glb in Resources */,
+				0B7A1AE919ED9AD7D714E1F0 /* hull_colors.json in Resources */,
+				610E50A63FAC7EEA96CF1D16 /* nebula_ibl_ibl.ktx in Resources */,
+				389BDD26B1D5EF6775861220 /* nebula_ibl_skybox.ktx in Resources */,
+				1C96BABBB6C4DB442A7AF055 /* nebula_sh.txt in Resources */,
+				DDCB5A72C5E9A2D53D96AD87 /* normaldebug_metal.filamat in Resources */,
+				3B24655E0E450EBB83359808 /* rainDropplet.glb in Resources */,
+				2D2ADFC1661FC335E6035B6D /* rain_ripples.ktx2 in Resources */,
+				C2DC0E787835117FBD2779A4 /* rain_ripples.png in Resources */,
+				429E52E281D581D838541EFF /* raineffect_metal.filamat in Resources */,
+				2CEF17068FBC1A6154FE1F98 /* sandFloor_optimized.glb in Resources */,
+				47E2C512380D4C07AF3756AD /* seafloor_parametric_metal.filamat in Resources */,
+				69470CECE4D48EAA1040B5F5 /* skybox_gradient_metal.filamat in Resources */,
+				01C85B36AE5575E3D2E57D19 /* sunny_ibl.ktx in Resources */,
+				718F21606931603FC8E86B60 /* sunny_sh.txt in Resources */,
+				526E09D4C76C8E465A4BCBEB /* unlit_metal.filamat in Resources */,
+				216192A7FD8579D79B0C9503 /* water_alpha.ktx in Resources */,
+				40299CACF9B28993241EDB61 /* water_caustics.ktx in Resources */,
+				7096EF037DEA771198E22DDF /* water_metal.filamat in Resources */,
+				CB8C773E1424A1B36E8AA690 /* wooden_studio_08_ibl.ktx in Resources */,
+				909505D3B6554AE9E3C7AA52 /* wooden_studio_08_sh.txt in Resources */,
+				AFFF039C06D293DB8E3C69CB /* xRayMaterial in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3F797B29EF8F89E9AF027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE56EAD4703EE8A73880943B /* Assets.xcassets in Resources */,
+				044680D68C752FCAF2914475 /* ControlsINI in Resources */,
+				F15BFD2785F75389EAC92BE3 /* LaunchScreen.storyboard in Resources */,
+				95854BE762A078ECEF501C76 /* LiveryOne.ktx in Resources */,
+				19D9EB7738F6CA6FBC5EECF1 /* LiveryTwo.ktx in Resources */,
+				1C8338F08545CC5AC0A55154 /* M_CarPaint_metal.filamat in Resources */,
+				3ED00192FC11DAC586727A76 /* M_Decals_metal.filamat in Resources */,
+				29C005E5AE2893B443DFEC37 /* M_Glass_metal.filamat in Resources */,
+				17CC5A21E604DC1161A2A713 /* M_HexMesh_metal.filamat in Resources */,
+				96C6194D9C412CCE9DF67C0F /* M_PanelGap_metal.filamat in Resources */,
+				7549E443938A95346B507B83 /* M_WarpBubble_metal.filamat in Resources */,
+				77CD0E7C1D6BCBF0F2C42B63 /* M_xrayshader_metal.filamat in Resources */,
+				3775038B41A6C8896ADA0DA7 /* Main.storyboard in Resources */,
+				01E33E19525F65A2DFEC7927 /* Materials in Resources */,
+				6088D866E63D62FD8F4C368E /* MetalPainted_metal.filamat in Resources */,
+				D38914064717BFC5F8EA5504 /* PCraft400.glb in Resources */,
+				A78631DBB06E8172539AD975 /* PCraft400Interior.glb in Resources */,
+				CFE162FC542B81EF44C0EA85 /* PT_NorXYFoMask.ktx in Resources */,
+				912DEFCE37DB0F5C34AD7103 /* PT_NorXYFoMask.ktx2 in Resources */,
+				D5D8E25CB867A2EEA1360F29 /* PrivacyInfo.xcprivacy in Resources */,
+				104F85C75A3DDA772E3F5960 /* README.md in Resources */,
+				97D29B9B3E7F94D8C3C8B849 /* SM_SkySphere.glb in Resources */,
+				66CDF415FD7888D9E7999D62 /* SM_hangar.glb in Resources */,
+				23F08B3E9EFABE243C79F0D5 /* SM_warpbubble.glb in Resources */,
+				7F790C5B797CC9A032D43E63 /* SandFloor in Resources */,
+				6147E6311F9D68CA92355C60 /* T_D_Decals.ktx in Resources */,
+				EBFE8F6D67F3C4CF143B365E /* T_Mesh.ktx in Resources */,
+				7002D0CDB27F63C5904C016C /* T_N_MetalFlakes.ktx in Resources */,
+				057BCE81937871C00F38C787 /* T_N_PGAP_A.ktx in Resources */,
+				F56A5FB525C3B9BABC3FA889 /* T_Panel_teak.ktx in Resources */,
+				0AE47A0FC670B9622E64B3B9 /* T_Panel_wood.ktx in Resources */,
+				F45DFA863AD38AED09655CAE /* T_Roughness.ktx in Resources */,
+				8D803840EACD2118689CDEAA /* T_StreakMask.ktx in Resources */,
+				45CCE5A9B2620C2BD1CCDD97 /* T_Warp_LiTemNoise12.ktx in Resources */,
+				8FAA4AD96DC351BC51AB385C /* T_floor_eshtec.ktx in Resources */,
+				6F9F8EB73AE0101E818D0FF4 /* T_floor_teak.ktx in Resources */,
+				23F4FBB71EFF631CAF044A58 /* T_floor_udeck.ktx in Resources */,
+				F138E505766A61338A4B60A1 /* T_sand.ktx in Resources */,
+				81E95795E250A73867C449E0 /* WaterMaterial in Resources */,
+				2ED8653E485E69C86F3C24F9 /* WaterMountains.glb in Resources */,
+				08746CEF7FD03BD9B47B594D /* cameras.ini in Resources */,
+				001F36B9AE9B7A9935CB64A3 /* caustic_distortion.ktx in Resources */,
+				5FB4874AB01B72D341C29CAB /* configuration.json in Resources */,
+				71C5DBD7BD3AEF7571236F37 /* debug_axes.glb in Resources */,
+				AFD0B3DEF83D3A2CF066F1B3 /* hull_colors.json in Resources */,
+				C6A5AE798BB9D05649E6C4EF /* nebula_ibl_ibl.ktx in Resources */,
+				9FDB6509E46BEB9EF83D536F /* nebula_ibl_skybox.ktx in Resources */,
+				4FE460D0228EFB81BD950564 /* nebula_sh.txt in Resources */,
+				A17A2AA20DA6FCFB36A58799 /* normaldebug_metal.filamat in Resources */,
+				580BA4F7B7362BAC05196837 /* rainDropplet.glb in Resources */,
+				0E1049128887564633297697 /* rain_ripples.ktx2 in Resources */,
+				682196C4F527F85BD9D184C4 /* rain_ripples.png in Resources */,
+				8F3C343F4F0A6E495728914B /* raineffect_metal.filamat in Resources */,
+				FDDFB707737D8BFBB9E68A57 /* sandFloor_optimized.glb in Resources */,
+				027BC4167CDE79AD568E3202 /* seafloor_parametric_metal.filamat in Resources */,
+				D190CDB339062F6328427D0F /* skybox_gradient_metal.filamat in Resources */,
+				F12AFC26554B93842FE124A3 /* sunny_ibl.ktx in Resources */,
+				8C20A25E1D1686479A01A289 /* sunny_sh.txt in Resources */,
+				2A934C37B76E04DB35CEB640 /* unlit_metal.filamat in Resources */,
+				57DC2AA60D51F6DA0E97434E /* water_alpha.ktx in Resources */,
+				9F92C3F90425472534A2EB4A /* water_caustics.ktx in Resources */,
+				B139B0E5B125BF3AF73E3460 /* water_metal.filamat in Resources */,
+				EF6164F809B9059EA7CCCD99 /* wooden_studio_08_ibl.ktx in Resources */,
+				4428AA2F3B2C2A03EFAC4AF5 /* wooden_studio_08_sh.txt in Resources */,
+				29637B5272DE4A2E96F6D717 /* xRayMaterial in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193CF46691595359FB320392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9264BD1FA0A8FD22B3A36A9E /* AppConfig.swift in Sources */,
+				0F425DB1D654CBFD743E2932 /* AppDelegate.swift in Sources */,
+				76858853BEF52A855CC020DD /* AppLog.swift in Sources */,
+				BA5376F085E0B6A07D3C258C /* AppTheme.swift in Sources */,
+				94D880DC29E9BFC3E0C93A47 /* ConfiguratorEngineView.swift in Sources */,
+				FA623973C5B34A26A5019AFF /* ConfiguratorKit.mm in Sources */,
+				B9E938A5EC55960CC3ECEFC2 /* ConfiguratorModels.swift in Sources */,
+				F6D3D4D2EA384030F7E66855 /* ConfiguratorViewLogic.swift in Sources */,
+				EFD50BBBF9C00856D44B0A12 /* FilamentView.swift in Sources */,
+				A380F51E97B781B13FA4B4EB /* FullScreenHostingController.swift in Sources */,
+				39D23FC71A0BE9221EB7CF53 /* ManifestLoader.swift in Sources */,
+				E015BC9BEF71EAF633507600 /* PragmataCoreIOSBridge.mm in Sources */,
+				B2AF6D9CD06A415803DEBA11 /* PragmataView.mm in Sources */,
+				25B4D1F6C1D0C5C3B3B8AEE1 /* PragmataViewStore.swift in Sources */,
+				D9FD3A7EDC01652071A0882D /* SceneDelegate.swift in Sources */,
+				89062D912303613031FABF2E /* SharedConfiguratorComponents.swift in Sources */,
+				FFD9426729716680D32DCFC7 /* SplashScreenView.swift in Sources */,
+				F84B0CF1AAE2AEECE587297D /* TopViewButton.swift in Sources */,
+				95BABECFD3B72F10DF9CC981 /* ViewController.swift in Sources */,
+				29731128144192124903C3AF /* iOSConfiguratorComponents.swift in Sources */,
+				A9F132F6ACDEFBD2BF33840A /* iPadBoatConfiguratorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D10F8404BF7504E3117357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B340E5C5326765BB5560B1 /* AppConfig.swift in Sources */,
+				649CC9A76592FF828122A305 /* AppDelegate.swift in Sources */,
+				C4E74FC43A3AF6FFE65988FF /* AppLog.swift in Sources */,
+				64933875398147835B75403C /* AppTheme.swift in Sources */,
+				F0DC06E415BEAFCC1C8A3A8E /* ConfiguratorEngineView.swift in Sources */,
+				E74DC44160340D1BFBC2C0CC /* ConfiguratorKit.mm in Sources */,
+				7947741AC2D6BD073ACA0A85 /* ConfiguratorModels.swift in Sources */,
+				D5C43FB0F92A0C9F1D2CB84B /* ConfiguratorViewLogic.swift in Sources */,
+				F834A1A455DC2264D64B8A25 /* MacConfiguratorView.swift in Sources */,
+				949A6E76A9845B3F99B406B0 /* ManifestLoader.swift in Sources */,
+				C3C941A12DD9037A32194E37 /* PragmataCoreIOSBridge.mm in Sources */,
+				B04C2016E22BCA893CC6C7DB /* PragmataMacView.mm in Sources */,
+				2EC70F10EB96356BB65D0814 /* PragmataViewStore.swift in Sources */,
+				74FE5AA2794BDFD5447E43CC /* SharedConfiguratorComponents.swift in Sources */,
+				C0A7797A0BF506FA885DAE30 /* SplashScreenView.swift in Sources */,
+				5C35216B11682562A35D9158 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6720E858F1F00F479E131AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FD21CA1C20BD9FFA0BB24 /* AppConfig.swift in Sources */,
+				4D58525050F3D82C24072BE2 /* AppDelegate.swift in Sources */,
+				50AECB1075DB3C926D7CF887 /* AppLog.swift in Sources */,
+				1B51E747459FC873091D9A6D /* AppTheme.swift in Sources */,
+				0BBAA4BE01AF54B27C32072A /* ConfiguratorEngineView.swift in Sources */,
+				4DE0FA26E7A3684CC379114E /* ConfiguratorKit.mm in Sources */,
+				1B7E1A9921C32627D41F761E /* ConfiguratorModels.swift in Sources */,
+				802C412F60A20EA6B6D8ADED /* ConfiguratorViewLogic.swift in Sources */,
+				BC51ABBAC297616E454F7742 /* ManifestLoader.swift in Sources */,
+				43BAB1E615F26F65F8126F64 /* PragmataCoreIOSBridge.mm in Sources */,
+				2E408407BADE0849B95B07F7 /* PragmataView.mm in Sources */,
+				5B167477AE9006315EB516A1 /* PragmataViewStore.swift in Sources */,
+				885B937F902E1DCAEBE912C4 /* SceneDelegate.swift in Sources */,
+				B36028DDE109DB825244FDC2 /* SharedConfiguratorComponents.swift in Sources */,
+				D84E1260BD877A2A2748F16B /* SiriRemoteObserver.swift in Sources */,
+				CB22AE36B6F4A35D0EA3BF51 /* SplashScreenView.swift in Sources */,
+				917EEFC291483C8C1209F3FE /* TVOSBoatConfiguratorView.swift in Sources */,
+				EBF8221501803001D85D190C /* TVOSMainView.swift in Sources */,
+				EF80BEBC7C3AA227A8F6E4D2 /* UIComponents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		245E2CE330E0DE34E18F8285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRAGMATACORE_DISABLE_LOGGING=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+					"$(SRCROOT)/../configurator/macOS/UI",
+				);
+				INFOPLIST_FILE = ../configurator/macOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		375BBC51952556356153514F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = tvOS;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = "arm64 x86_64";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRAGMATACORE_DISABLE_LOGGING=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+				);
+				INFOPLIST_FILE = ../configurator/tvOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		714A809EBF9756AB9FB91D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+				);
+				INFOPLIST_FILE = ../configurator/iOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73D731520B6A01B3CDD66741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+					"$(SRCROOT)/../configurator/macOS/UI",
+				);
+				INFOPLIST_FILE = ../configurator/macOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7789018C3155C246CB32F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRAGMATACORE_DISABLE_LOGGING=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+				);
+				INFOPLIST_FILE = ../configurator/iOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8287B2ECA170E6BB9DFC9DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		964AB0F9C4B997087332A2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = tvOS;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = "arm64 x86_64";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../dist\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../configurator/Shared/Core",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers",
+					"$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers",
+				);
+				INFOPLIST_FILE = ../configurator/tvOS/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C25041F7F94C30E33DFE15EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3A2F48B16CE33BE1192F42 /* Build configuration list for PBXProject "PragmataCoreShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25041F7F94C30E33DFE15EC /* Debug */,
+				8287B2ECA170E6BB9DFC9DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		25907938929241355FD7664F /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964AB0F9C4B997087332A2A3 /* Debug */,
+				375BBC51952556356153514F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E14881D01B12C72C21E0C4E /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714A809EBF9756AB9FB91D9B /* Debug */,
+				7789018C3155C246CB32F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD571ABD34F025489E6BA168 /* Build configuration list for PBXNativeTarget "PragmataCoreShowcase-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D731520B6A01B3CDD66741 /* Debug */,
+				245E2CE330E0DE34E18F8285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6844C1EC3B581589B5300300 /* Project object */;
+}
