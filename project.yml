@@ -14,7 +14,8 @@ configs:
 
 packages:
   PragmataCore:
-    path: .
+    url: https://github.com/Pragmata-labs/pragmatacore-showcase
+    from: 0.1.1
 
 schemes:
   Showcase-iOS:
