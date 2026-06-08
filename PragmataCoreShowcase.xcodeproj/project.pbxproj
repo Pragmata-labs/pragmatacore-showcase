@@ -271,120 +271,120 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0004EA96468344622C9E405E /* T_Roughness.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Roughness.ktx; sourceTree = "<group>"; };
-		015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafloor_parametric_metal.filamat; sourceTree = "<group>"; };
+		0004EA96468344622C9E405E /* T_Roughness.ktx */ = {isa = PBXFileReference; path = T_Roughness.ktx; sourceTree = "<group>"; };
+		015B91F2A1B18411C6942729 /* seafloor_parametric_metal.filamat */ = {isa = PBXFileReference; path = seafloor_parametric_metal.filamat; sourceTree = "<group>"; };
 		055519A0F5B7D32E0E0E1347 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_CarPaint_metal.filamat; sourceTree = "<group>"; };
-		0699198028D331C971E62E6B /* SM_SkySphere.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SM_SkySphere.glb; sourceTree = "<group>"; };
+		057C5378F08EBA971F050331 /* M_CarPaint_metal.filamat */ = {isa = PBXFileReference; path = M_CarPaint_metal.filamat; sourceTree = "<group>"; };
+		0699198028D331C971E62E6B /* SM_SkySphere.glb */ = {isa = PBXFileReference; path = SM_SkySphere.glb; sourceTree = "<group>"; };
 		0D4BED9EE831B3208A50FFD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		10C0EE229A2D9CCA9826F764 /* PragmataMacView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataMacView.mm; sourceTree = "<group>"; };
-		13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_PanelGap_metal.filamat; sourceTree = "<group>"; };
-		136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = normaldebug_metal.filamat; sourceTree = "<group>"; };
+		13038CF45ED5D8499B6149FE /* M_PanelGap_metal.filamat */ = {isa = PBXFileReference; path = M_PanelGap_metal.filamat; sourceTree = "<group>"; };
+		136E1116B60CD5B1217075BF /* normaldebug_metal.filamat */ = {isa = PBXFileReference; path = normaldebug_metal.filamat; sourceTree = "<group>"; };
 		13F87D4569D3799C4BC14543 /* xRayMaterial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xRayMaterial; path = Sources/Shared/Resources/xRayMaterial; sourceTree = SOURCE_ROOT; };
-		1588FF3F4FECBFB31C30D94A /* water_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_metal.filamat; sourceTree = "<group>"; };
+		1588FF3F4FECBFB31C30D94A /* water_metal.filamat */ = {isa = PBXFileReference; path = water_metal.filamat; sourceTree = "<group>"; };
 		15D235E8A832FE612CA352EA /* FullScreenHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenHostingController.swift; sourceTree = "<group>"; };
-		16C26905C69613272DFB707C /* debug_axes.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = debug_axes.glb; sourceTree = "<group>"; };
-		1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlit_metal.filamat; sourceTree = "<group>"; };
+		16C26905C69613272DFB707C /* debug_axes.glb */ = {isa = PBXFileReference; path = debug_axes.glb; sourceTree = "<group>"; };
+		1C6DDDE9476C1AC6987E6196 /* unlit_metal.filamat */ = {isa = PBXFileReference; path = unlit_metal.filamat; sourceTree = "<group>"; };
 		1EC1386A8D0ABFCFC3D13217 /* sunny_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sunny_sh.txt; sourceTree = "<group>"; };
-		21AFC81845B1EA7722470169 /* SM_hangar.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SM_hangar.glb; sourceTree = "<group>"; };
+		21AFC81845B1EA7722470169 /* SM_hangar.glb */ = {isa = PBXFileReference; path = SM_hangar.glb; sourceTree = "<group>"; };
 		2498500867B6D1A5B44CC2CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_xrayshader_metal.filamat; sourceTree = "<group>"; };
-		324AA687D0F89A748B48C666 /* sunny_ibl.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunny_ibl.ktx; sourceTree = "<group>"; };
+		2D783E09FECD3922F18F9119 /* M_xrayshader_metal.filamat */ = {isa = PBXFileReference; path = M_xrayshader_metal.filamat; sourceTree = "<group>"; };
+		324AA687D0F89A748B48C666 /* sunny_ibl.ktx */ = {isa = PBXFileReference; path = sunny_ibl.ktx; sourceTree = "<group>"; };
 		37AD2890579B206AA0EB85B9 /* ConfiguratorKitCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfiguratorKitCore.h; sourceTree = "<group>"; };
-		3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = skybox_gradient_metal.filamat; sourceTree = "<group>"; };
+		3A1E52AC429E7B43421B4BC5 /* skybox_gradient_metal.filamat */ = {isa = PBXFileReference; path = skybox_gradient_metal.filamat; sourceTree = "<group>"; };
 		3C189C28900BAEA0A18228B7 /* AppLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
-		3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Warp_LiTemNoise12.ktx; sourceTree = "<group>"; };
+		3C4673360F0F031E9FF5F6D8 /* T_Warp_LiTemNoise12.ktx */ = {isa = PBXFileReference; path = T_Warp_LiTemNoise12.ktx; sourceTree = "<group>"; };
 		40A058E57C12CE1D845BE9C8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		46921AF195326E47F489BD20 /* PragmataCoreIOSBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataCoreIOSBridge.mm; sourceTree = "<group>"; };
 		485A43E01962A73B9B2726CF /* SandFloor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SandFloor; path = Sources/Shared/Resources/SandFloor; sourceTree = SOURCE_ROOT; };
-		4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_HexMesh_metal.filamat; sourceTree = "<group>"; };
+		4CC500810539B268D339D7A3 /* M_HexMesh_metal.filamat */ = {isa = PBXFileReference; path = M_HexMesh_metal.filamat; sourceTree = "<group>"; };
 		4E1F85261C9A00EE8AB6910F /* nebula_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = nebula_sh.txt; sourceTree = "<group>"; };
-		4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_Glass_metal.filamat; sourceTree = "<group>"; };
+		4FFD270DFB8E278F11348E2B /* M_Glass_metal.filamat */ = {isa = PBXFileReference; path = M_Glass_metal.filamat; sourceTree = "<group>"; };
 		5362DB346A8B0FC413DFBF6E /* Materials */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Materials; path = Sources/Shared/Resources/Materials; sourceTree = SOURCE_ROOT; };
 		54DC67908A9AF88976709AC6 /* ConfiguratorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfiguratorKit.h; sourceTree = "<group>"; };
-		55D195242FAF882509E095CE /* T_floor_eshtec.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_floor_eshtec.ktx; sourceTree = "<group>"; };
+		55D195242FAF882509E095CE /* T_floor_eshtec.ktx */ = {isa = PBXFileReference; path = T_floor_eshtec.ktx; sourceTree = "<group>"; };
 		5C5C4F40D481FE66142B8C5E /* iPadBoatConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadBoatConfiguratorView.swift; sourceTree = "<group>"; };
 		5DEB2FCACB0BD78743EBC83A /* SharedConfiguratorComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConfiguratorComponents.swift; sourceTree = "<group>"; };
 		5F370946B8A95A93B9E451BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		611418DA2473DB934C9EB18A /* cameras.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = cameras.ini; sourceTree = "<group>"; };
-		6121599BF1408A2A3509EAFA /* LiveryOne.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiveryOne.ktx; sourceTree = "<group>"; };
+		611418DA2473DB934C9EB18A /* cameras.ini */ = {isa = PBXFileReference; path = cameras.ini; sourceTree = "<group>"; };
+		6121599BF1408A2A3509EAFA /* LiveryOne.ktx */ = {isa = PBXFileReference; path = LiveryOne.ktx; sourceTree = "<group>"; };
 		6404D03E3D0307DAD216615C /* ManifestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLoader.swift; sourceTree = "<group>"; };
-		64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Panel_wood.ktx; sourceTree = "<group>"; };
+		64D3B419D916C7B6E90B1025 /* T_Panel_wood.ktx */ = {isa = PBXFileReference; path = T_Panel_wood.ktx; sourceTree = "<group>"; };
 		66F92A02457B48CFB47DB093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = wooden_studio_08_ibl.ktx; sourceTree = "<group>"; };
+		6ACEFC7B012386D95E89606F /* wooden_studio_08_ibl.ktx */ = {isa = PBXFileReference; path = wooden_studio_08_ibl.ktx; sourceTree = "<group>"; };
 		6DAF7E6204F48DE6720EA722 /* SiriRemoteObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriRemoteObserver.swift; sourceTree = "<group>"; };
-		6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6ECC82A09B090E08388C449B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		705DE5B51544140857400968 /* TVOSBoatConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSBoatConfiguratorView.swift; sourceTree = "<group>"; };
-		73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_floor_teak.ktx; sourceTree = "<group>"; };
+		73356227D82A516DF6BE7D7B /* T_floor_teak.ktx */ = {isa = PBXFileReference; path = T_floor_teak.ktx; sourceTree = "<group>"; };
 		7C185795B00F6C2004CEDDA9 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
 		7D87ACAC21CFD02333142005 /* ConfiguratorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorModels.swift; sourceTree = "<group>"; };
 		7F51FB5CD6BC9A0D6A5CD619 /* configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
-		80814C07DEF6997FDA328428 /* WaterMountains.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = WaterMountains.glb; sourceTree = "<group>"; };
+		80814C07DEF6997FDA328428 /* WaterMountains.glb */ = {isa = PBXFileReference; path = WaterMountains.glb; sourceTree = "<group>"; };
 		81E46514879AB3DCB402DB42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Panel_teak.ktx; sourceTree = "<group>"; };
+		8597B2E208C978A395CF1A7E /* T_Panel_teak.ktx */ = {isa = PBXFileReference; path = T_Panel_teak.ktx; sourceTree = "<group>"; };
 		888D75252AADA40BFBEE6709 /* PragmataView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PragmataView.mm; sourceTree = "<group>"; };
-		89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; name = PragmataCoreShowcase.app; path = "Pragmata Industries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = nebula_ibl_skybox.ktx; sourceTree = "<group>"; };
-		8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Mesh.ktx; sourceTree = "<group>"; };
-		8D2A99B56A6BE0CF26515EC0 /* Pragmata Industries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pragmata Industries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = sandFloor_optimized.glb; sourceTree = "<group>"; };
-		8F9A1650451D43751BF98904 /* PCraft400Interior.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PCraft400Interior.glb; sourceTree = "<group>"; };
+		89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PragmataCoreShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8650E748C776A42E22E910 /* nebula_ibl_skybox.ktx */ = {isa = PBXFileReference; path = nebula_ibl_skybox.ktx; sourceTree = "<group>"; };
+		8CA84FC9EAB0AB400AA6492F /* T_Mesh.ktx */ = {isa = PBXFileReference; path = T_Mesh.ktx; sourceTree = "<group>"; };
+		8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PragmataCoreShowcase-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9450242EB3AAEC4D3F8572 /* sandFloor_optimized.glb */ = {isa = PBXFileReference; path = sandFloor_optimized.glb; sourceTree = "<group>"; };
+		8F9A1650451D43751BF98904 /* PCraft400Interior.glb */ = {isa = PBXFileReference; path = PCraft400Interior.glb; sourceTree = "<group>"; };
 		8FB425CC4011BC8AE0C4ED13 /* PragmataCoreDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PragmataCoreDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		91C67AF3E3CDD681ECA6BCFA /* iOSConfiguratorComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConfiguratorComponents.swift; sourceTree = "<group>"; };
 		944C984BA469FCAB8F67EEC4 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		949364A4BDC099E783757084 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_alpha.ktx; sourceTree = "<group>"; };
+		94AE0937CCDF9BB3011B6395 /* water_alpha.ktx */ = {isa = PBXFileReference; path = water_alpha.ktx; sourceTree = "<group>"; };
 		95761102F5F4968AC5F5991A /* ConfiguratorKit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfiguratorKit.mm; sourceTree = "<group>"; };
 		9F8C08FD9C63B916AB43369A /* FilamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentView.swift; sourceTree = "<group>"; };
-		A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain_ripples.ktx2; sourceTree = "<group>"; };
+		A72D38A17A2087154DECEC90 /* rain_ripples.ktx2 */ = {isa = PBXFileReference; path = rain_ripples.ktx2; sourceTree = "<group>"; };
 		A9072098F68431185E6ADB71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AADE03064384911C690A3FF7 /* ConfiguratorViewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorViewLogic.swift; sourceTree = "<group>"; };
 		ABDEAFCED709D8FED45E69BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC7868DA8B2D4C87ABC539EB /* TVOSMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSMainView.swift; sourceTree = "<group>"; };
 		AD20CCCA16786917A8851073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_sand.ktx; sourceTree = "<group>"; };
+		AFE8CD8BC3E8FB83A992D847 /* T_sand.ktx */ = {isa = PBXFileReference; path = T_sand.ktx; sourceTree = "<group>"; };
 		B08AE1AB211D1C2BCFDE32F1 /* TopViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewButton.swift; sourceTree = "<group>"; };
-		B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = PT_NorXYFoMask.ktx; sourceTree = "<group>"; };
+		B21E5DCF0368D0ACD0F72E27 /* PT_NorXYFoMask.ktx */ = {isa = PBXFileReference; path = PT_NorXYFoMask.ktx; sourceTree = "<group>"; };
 		B26C639E04D0D02833C44078 /* WaterMaterial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WaterMaterial; path = Sources/Shared/Resources/WaterMaterial; sourceTree = SOURCE_ROOT; };
-		B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; name = "PragmataCoreShowcase-tvOS.app"; path = "Pragmata Industries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "PragmataCoreShowcase-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61F150D8746CC7811D5BABD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = nebula_ibl_ibl.ktx; sourceTree = "<group>"; };
+		B631B4240A837EB505F0D265 /* nebula_ibl_ibl.ktx */ = {isa = PBXFileReference; path = nebula_ibl_ibl.ktx; sourceTree = "<group>"; };
 		B9253CF33A9B3824EEC0D2BC /* PragmataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataView.h; sourceTree = "<group>"; };
-		B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PT_NorXYFoMask.ktx2; sourceTree = "<group>"; };
-		BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_floor_udeck.ktx; sourceTree = "<group>"; };
-		C2C8551324A5B4299222F650 /* raineffect_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = raineffect_metal.filamat; sourceTree = "<group>"; };
+		B98AD6C90CF15E74091126A1 /* PT_NorXYFoMask.ktx2 */ = {isa = PBXFileReference; path = PT_NorXYFoMask.ktx2; sourceTree = "<group>"; };
+		BA5809DB17405385A77B1D21 /* T_floor_udeck.ktx */ = {isa = PBXFileReference; path = T_floor_udeck.ktx; sourceTree = "<group>"; };
+		C2C8551324A5B4299222F650 /* raineffect_metal.filamat */ = {isa = PBXFileReference; path = raineffect_metal.filamat; sourceTree = "<group>"; };
 		C40F5E9CBF88125B2835BD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C63EE494133A377FAD7314A0 /* wooden_studio_08_sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wooden_studio_08_sh.txt; sourceTree = "<group>"; };
 		C676F86F4AAA206C9017157E /* rain_ripples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain_ripples.png; sourceTree = "<group>"; };
-		C6E6D374032F992D5D164669 /* rainDropplet.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainDropplet.glb; sourceTree = "<group>"; };
-		CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_StreakMask.ktx; sourceTree = "<group>"; };
+		C6E6D374032F992D5D164669 /* rainDropplet.glb */ = {isa = PBXFileReference; path = rainDropplet.glb; sourceTree = "<group>"; };
+		CB2AA16FA23CECD40E7573D7 /* T_StreakMask.ktx */ = {isa = PBXFileReference; path = T_StreakMask.ktx; sourceTree = "<group>"; };
 		CB595AC339323D9F0978866C /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
 		CD21AC9600EFF3604F01CACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SM_warpbubble.glb; sourceTree = "<group>"; };
-		D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PCraft400.glb; sourceTree = "<group>"; };
-		D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_D_Decals.ktx; sourceTree = "<group>"; };
-		D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_N_MetalFlakes.ktx; sourceTree = "<group>"; };
+		CE4AEF235E0D3F48F2ADBC48 /* SM_warpbubble.glb */ = {isa = PBXFileReference; path = SM_warpbubble.glb; sourceTree = "<group>"; };
+		D0EAA9611015B57CCA3B8FF1 /* PCraft400.glb */ = {isa = PBXFileReference; path = PCraft400.glb; sourceTree = "<group>"; };
+		D3F149B193F3813D6CA90972 /* T_D_Decals.ktx */ = {isa = PBXFileReference; path = T_D_Decals.ktx; sourceTree = "<group>"; };
+		D8C626CA2AA05B62DB32B0C7 /* T_N_MetalFlakes.ktx */ = {isa = PBXFileReference; path = T_N_MetalFlakes.ktx; sourceTree = "<group>"; };
 		DAFC57E61C7EB9952D077D73 /* PragmataCoreIOSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataCoreIOSBridge.h; sourceTree = "<group>"; };
 		E33D155AAD351A66A7E97A34 /* MacConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacConfiguratorView.swift; sourceTree = "<group>"; };
 		E37C834789C5EB050643E752 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		E5720E237937EFF9D6F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_Decals_metal.filamat; sourceTree = "<group>"; };
+		E683376D6B14D63DA5D3B205 /* M_Decals_metal.filamat */ = {isa = PBXFileReference; path = M_Decals_metal.filamat; sourceTree = "<group>"; };
 		EAF2F90AB89716D507437C88 /* ConfiguratorEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorEngineView.swift; sourceTree = "<group>"; };
 		EC78BD4B3FD12CE4B25F0103 /* MaterialsDesktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MaterialsDesktop; path = Sources/Shared/Resources/MaterialsDesktop; sourceTree = SOURCE_ROOT; };
 		EE92F8B907BFF81518BC0BDB /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		EF46652A494B4D0A237FEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1C3F0CFAB825725B51797FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = MetalPainted_metal.filamat; sourceTree = "<group>"; };
+		F47BFF7F7B708ED4788010F2 /* MetalPainted_metal.filamat */ = {isa = PBXFileReference; path = MetalPainted_metal.filamat; sourceTree = "<group>"; };
 		F528D138B2ABCBA954483B6D /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = caustic_distortion.ktx; sourceTree = "<group>"; };
+		F71B6590F2D4B413E6C5B525 /* caustic_distortion.ktx */ = {isa = PBXFileReference; path = caustic_distortion.ktx; sourceTree = "<group>"; };
 		F7C43E14839EBB3DCC1B599E /* PragmataViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragmataViewStore.swift; sourceTree = "<group>"; };
 		F880F208640AFFAA4FCA8179 /* PragmataMacView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmataMacView.h; sourceTree = "<group>"; };
 		FC61621959AB1E054E933BE6 /* ControlsINI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ControlsINI; path = Sources/Shared/ControlsINI; sourceTree = SOURCE_ROOT; };
-		FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */ = {isa = PBXFileReference; lastKnownFileType = file; path = M_WarpBubble_metal.filamat; sourceTree = "<group>"; };
+		FCE6D5E80BDB5415C73D41EC /* M_WarpBubble_metal.filamat */ = {isa = PBXFileReference; path = M_WarpBubble_metal.filamat; sourceTree = "<group>"; };
 		FD9C80FECF3932956EAC19BA /* hull_colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hull_colors.json; sourceTree = "<group>"; };
-		FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiveryTwo.ktx; sourceTree = "<group>"; };
-		FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_N_PGAP_A.ktx; sourceTree = "<group>"; };
-		FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_caustics.ktx; sourceTree = "<group>"; };
+		FEC01CB1A2C8238C7D3A1F9B /* LiveryTwo.ktx */ = {isa = PBXFileReference; path = LiveryTwo.ktx; sourceTree = "<group>"; };
+		FF4B940382427C06EA2AE936 /* T_N_PGAP_A.ktx */ = {isa = PBXFileReference; path = T_N_PGAP_A.ktx; sourceTree = "<group>"; };
+		FF893F9F5045D6AB467CDD68 /* water_caustics.ktx */ = {isa = PBXFileReference; path = water_caustics.ktx; sourceTree = "<group>"; };
 		FFC48A8E070BBDF87A0EA90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -484,6 +484,7 @@
 				944C984BA469FCAB8F67EEC4 /* AppConfig.swift */,
 				CB595AC339323D9F0978866C /* AppLog.swift */,
 			);
+			name = Logging;
 			path = Logging;
 			sourceTree = "<group>";
 		};
@@ -649,7 +650,7 @@
 		A2E21313DCB852137581A4E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D2A99B56A6BE0CF26515EC0 /* Pragmata Industries.app */,
+				8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */,
 				B61379C3056CC201B4E91565 /* PragmataCoreShowcase-tvOS.app */,
 				89FFB2A41BC2FC3E0939ED37 /* PragmataCoreShowcase.app */,
 			);
@@ -870,7 +871,7 @@
 				EAF901C16AEAC1B49EBCBB36 /* PragmataCore */,
 			);
 			productName = "PragmataCoreShowcase-macOS";
-			productReference = 8D2A99B56A6BE0CF26515EC0 /* Pragmata Industries.app */;
+			productReference = 8D2A99B56A6BE0CF26515EC0 /* PragmataCoreShowcase-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -897,6 +898,7 @@
 				};
 			};
 			buildConfigurationList = 1D3A2F48B16CE33BE1192F42 /* Build configuration list for PBXProject "PragmataCoreShowcase" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1218,7 +1220,6 @@
 			buildSettings = {
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = macOS/macOSicon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -1241,7 +1242,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 			};
@@ -1263,14 +1264,16 @@
 					"$(inherited)",
 					"PRAGMATACORE_DISABLE_LOGGING=1",
 				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Shared/Core";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources/Shared/Core",
+				);
 				INFOPLIST_FILE = Sources/tvOS/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1288,14 +1291,16 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Shared/Core";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources/Shared/Core",
+				);
 				INFOPLIST_FILE = Sources/iOS/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1307,7 +1312,6 @@
 			buildSettings = {
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = macOS/macOSicon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -1326,7 +1330,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.mac;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 			};
@@ -1347,14 +1351,16 @@
 					"$(inherited)",
 					"PRAGMATACORE_DISABLE_LOGGING=1",
 				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Shared/Core";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources/Shared/Core",
+				);
 				INFOPLIST_FILE = Sources/iOS/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.ios;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1430,14 +1436,16 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = "arm64 x86_64";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Shared/Core";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources/Shared/Core",
+				);
 				INFOPLIST_FILE = Sources/tvOS/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pragmatacore.showcase.tv;
-				PRODUCT_NAME = "Pragmata Industries";
+				PRODUCT_NAME = "PragmataCore Configurator";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;

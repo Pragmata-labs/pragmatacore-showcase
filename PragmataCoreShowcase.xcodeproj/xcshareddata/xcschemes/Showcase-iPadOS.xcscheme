@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "043ED04C4124EB5D56973C50"
-               BuildableName = "Pragmata Industries.app"
+               BuildableName = "PragmataCore Configurator.app"
                BlueprintName = "PragmataCoreShowcase"
                ReferencedContainer = "container:PragmataCoreShowcase.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "043ED04C4124EB5D56973C50"
-            BuildableName = "Pragmata Industries.app"
+            BuildableName = "PragmataCore Configurator.app"
             BlueprintName = "PragmataCoreShowcase"
             ReferencedContainer = "container:PragmataCoreShowcase.xcodeproj">
          </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "043ED04C4124EB5D56973C50"
-            BuildableName = "Pragmata Industries.app"
+            BuildableName = "PragmataCore Configurator.app"
             BlueprintName = "PragmataCoreShowcase"
             ReferencedContainer = "container:PragmataCoreShowcase.xcodeproj">
          </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "043ED04C4124EB5D56973C50"
-            BuildableName = "Pragmata Industries.app"
+            BuildableName = "PragmataCore Configurator.app"
             BlueprintName = "PragmataCoreShowcase"
             ReferencedContainer = "container:PragmataCoreShowcase.xcodeproj">
          </BuildableReference>
