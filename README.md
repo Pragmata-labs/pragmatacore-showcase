@@ -7,9 +7,9 @@
 
 ## Demo
 
-[![Demo](https://img.youtube.com/vi/vGlp4Ql6duw/maxresdefault.jpg)](https://youtu.be/vGlp4Ql6duw)
+▶ [Watch on YouTube](https://youtu.be/vGlp4Ql6duw)
 
-![Screenshot](media/screenshot.png)
+[![Screenshot](media/screenshot.png)](https://youtu.be/vGlp4Ql6duw)
 
 <!-- App Store links — uncomment when live -->
 <!-- [Download on the App Store](https://apps.apple.com/...) -->
