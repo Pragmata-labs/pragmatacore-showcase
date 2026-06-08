@@ -7,8 +7,7 @@
 
 ## Demo
 
-<!-- Add demo video or GIF here -->
-<!-- [![Demo](media/demo.gif)](media/demo.gif) -->
+[![Demo](https://img.youtube.com/vi/vGlp4Ql6duw/maxresdefault.jpg)](https://youtu.be/vGlp4Ql6duw)
 
 <!-- App Store links — uncomment when live -->
 <!-- [Download on the App Store](https://apps.apple.com/...) -->
