@@ -131,4 +131,4 @@ Any other use requires prior written agreement — contact markfuce@gmail.com.
 
 ---
 
-*Built by [Marko Fucek](https://github.com/YOUR_GITHUB)*
+*Built by [Marko Fucek](https://github.com/pannonianknight)*
