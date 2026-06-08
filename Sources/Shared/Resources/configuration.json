@@ -1,0 +1,71 @@
+{
+  "hullColors": {
+    "mint": { "r": 0.196, "g": 0.678, "b": 0.612 },
+    "military": { "r": 0.569, "g": 0.569, "b": 0.522 },
+    "antracite": { "r": 0.141, "g": 0.176, "b": 0.227 },
+    "fishermansBlue": { "r": 0.0, "g": 0.192, "b": 0.333 }
+  },
+  "seatColors": {
+    "titanium": { "r": 0.251, "g": 0.247, "b": 0.282 },
+    "mandarin": { "r": 0.518, "g": 0.133, "b": 0.122 },
+    "jet": { "r": 0.133, "g": 0.243, "b": 0.314 },
+    "sand": { "r": 0.386, "g": 0.267, "b": 0.212 }
+  },
+  "deckTextures": {
+    "eshtec": "T_floor_eshtec.ktx2",
+    "teak": "T_floor_teak.ktx2",
+    "udeck": "T_floor_udeck.ktx2"
+  },
+  "woodTextures": {
+    "teak": "T_Panel_teak.ktx2",
+    "wood": "T_Panel_wood.ktx2"
+  },
+  "equipmentPackages": {
+    "base": {
+      "name": "Base Configuration",
+      "meshes": {
+        "SM_Boat": true,
+        "SM_FrontAssembly": false,
+        "SM_RearAssembly": false,
+        "SM_Rails": false,
+        "SM_Tent": false
+      }
+    },
+    "medium": {
+      "name": "Medium Configuration",
+      "meshes": {
+        "SM_Boat": true,
+        "SM_FrontAssembly": true,
+        "SM_RearAssembly": false,
+        "SM_Rails": false,
+        "SM_Tent": false
+      }
+    },
+    "highEnd": {
+      "name": "High-End Configuration",
+      "meshes": {
+        "SM_Boat": true,
+        "SM_FrontAssembly": true,
+        "SM_RearAssembly": true,
+        "SM_Rails": false,
+        "SM_Tent": false
+      }
+    },
+    "ultra": {
+      "name": "Ultra Configuration",
+      "meshes": {
+        "SM_Boat": true,
+        "SM_FrontAssembly": true,
+        "SM_RearAssembly": true,
+        "SM_Rails": true,
+        "SM_Tent": true
+      }
+    }
+  },
+  "materialMappings": {
+    "hull": "M_HullColor",
+    "deck": "M_DeckingStyle",
+    "seats": "M_TextilleSeat",
+    "interiorWood": "M_WoodTable"
+  }
+}

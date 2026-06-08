@@ -12,6 +12,10 @@ configs:
   Debug: debug
   Release: release
 
+packages:
+  PragmataCore:
+    path: .
+
 schemes:
   Showcase-iOS:
     build:
@@ -45,7 +49,7 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: ../configurator/Shared
+      - path: Sources/Shared
         excludes:
           - "**/*.a"
           - "Vendor/lib/tvos-arm64/**"
@@ -55,32 +59,29 @@ targets:
           - "Resources/WaterMaterial/**"
           - "ControlsINI/**"
           - "Core/ConfiguratorKitCore.cpp"
-      - path: ../configurator/Shared/ControlsINI
+      - path: Sources/Shared/ControlsINI
         type: folder
-      - path: ../configurator/Shared/Resources/Materials
+      - path: Sources/Shared/Resources/Materials
         type: folder
-      - path: ../configurator/Shared/Resources/SandFloor
+      - path: Sources/Shared/Resources/SandFloor
         type: folder
-      - path: ../configurator/Shared/Resources/xRayMaterial
+      - path: Sources/Shared/Resources/xRayMaterial
         type: folder
-      - path: ../configurator/Shared/Resources/WaterMaterial
+      - path: Sources/Shared/Resources/WaterMaterial
         type: folder
-      - path: ../configurator/Shared/PrivacyInfo.xcprivacy
-      - path: ../configurator/Shared/Logging
+      - path: Sources/Shared/PrivacyInfo.xcprivacy
+      - path: Sources/Shared/Logging
         name: Logging
-      - path: ../configurator/iOS
+      - path: Sources/iOS
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.pragmatacore.showcase.ios
         DEVELOPMENT_TEAM: ""
         CODE_SIGN_STYLE: Automatic
-        INFOPLIST_FILE: ../configurator/iOS/App/Info.plist
-        SWIFT_OBJC_BRIDGING_HEADER: ../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h
+        INFOPLIST_FILE: Sources/iOS/App/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h
         HEADER_SEARCH_PATHS:
-          - "$(SRCROOT)/../configurator/Shared/Core"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers"
+          - "$(SRCROOT)/Sources/Shared/Core"
         CLANG_CXX_LANGUAGE_STANDARD: "c++17"
         ENABLE_BITCODE: NO
         DEAD_CODE_STRIPPING: YES
@@ -89,8 +90,7 @@ targets:
         Release:
           GCC_PREPROCESSOR_DEFINITIONS: ["$(inherited)", "PRAGMATACORE_DISABLE_LOGGING=1"]
     dependencies:
-      - framework: ../../dist/PragmataCore.xcframework
-        embed: false
+      - package: PragmataCore
       - sdk: Metal.framework
       - sdk: MetalKit.framework
       - sdk: QuartzCore.framework
@@ -100,7 +100,7 @@ targets:
     type: application
     platform: tvOS
     sources:
-      - path: ../configurator/Shared
+      - path: Sources/Shared
         excludes:
           - "**/*.storyboard"
           - "**/*.a"
@@ -110,32 +110,29 @@ targets:
           - "Resources/WaterMaterial/**"
           - "ControlsINI/**"
           - "Core/ConfiguratorKitCore.cpp"
-      - path: ../configurator/Shared/ControlsINI
+      - path: Sources/Shared/ControlsINI
         type: folder
-      - path: ../configurator/Shared/Resources/Materials
+      - path: Sources/Shared/Resources/Materials
         type: folder
-      - path: ../configurator/Shared/Resources/SandFloor
+      - path: Sources/Shared/Resources/SandFloor
         type: folder
-      - path: ../configurator/Shared/Resources/xRayMaterial
+      - path: Sources/Shared/Resources/xRayMaterial
         type: folder
-      - path: ../configurator/Shared/Resources/WaterMaterial
+      - path: Sources/Shared/Resources/WaterMaterial
         type: folder
-      - path: ../configurator/Shared/PrivacyInfo.xcprivacy
-      - path: ../configurator/Shared/Logging
+      - path: Sources/Shared/PrivacyInfo.xcprivacy
+      - path: Sources/Shared/Logging
         name: Logging
-      - path: ../configurator/tvOS
+      - path: Sources/tvOS
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.pragmatacore.showcase.tv
         DEVELOPMENT_TEAM: ""
         CODE_SIGN_STYLE: Automatic
-        INFOPLIST_FILE: ../configurator/tvOS/App/Info.plist
-        SWIFT_OBJC_BRIDGING_HEADER: ../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h
+        INFOPLIST_FILE: Sources/tvOS/App/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h
         HEADER_SEARCH_PATHS:
-          - "$(SRCROOT)/../configurator/Shared/Core"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers"
+          - "$(SRCROOT)/Sources/Shared/Core"
         EXCLUDED_ARCHS[sdk=appletvsimulator*]: "arm64 x86_64"
         CLANG_CXX_LANGUAGE_STANDARD: "c++17"
         ASSETCATALOG_COMPILER_APPICON_NAME: "tvOS"
@@ -146,8 +143,7 @@ targets:
         Release:
           GCC_PREPROCESSOR_DEFINITIONS: ["$(inherited)", "PRAGMATACORE_DISABLE_LOGGING=1"]
     dependencies:
-      - framework: ../../dist/PragmataCore.xcframework
-        embed: false
+      - package: PragmataCore
       - sdk: Metal.framework
       - sdk: MetalKit.framework
       - sdk: QuartzCore.framework
@@ -158,7 +154,7 @@ targets:
     type: application
     platform: macOS
     sources:
-      - path: ../configurator/Shared
+      - path: Sources/Shared
         excludes:
           - "**/*.a"
           - "Vendor/lib/tvos-arm64/**"
@@ -172,37 +168,34 @@ targets:
           - "Core/PragmataView.h"
           - "Core/PragmataView.mm"
           - "Core/ConfiguratorKitCore.cpp"
-      - path: ../configurator/Shared/ControlsINI
+      - path: Sources/Shared/ControlsINI
         type: folder
-      - path: ../configurator/Shared/Resources/Materials
+      - path: Sources/Shared/Resources/Materials
         type: folder
-      - path: ../configurator/Shared/Resources/SandFloor
+      - path: Sources/Shared/Resources/SandFloor
         type: folder
-      - path: ../configurator/Shared/Resources/xRayMaterial
+      - path: Sources/Shared/Resources/xRayMaterial
         type: folder
-      - path: ../configurator/Shared/Resources/WaterMaterial
+      - path: Sources/Shared/Resources/WaterMaterial
         type: folder
-      - path: ../configurator/Shared/Resources/MaterialsDesktop
+      - path: Sources/Shared/Resources/MaterialsDesktop
         type: folder
-      - path: ../configurator/Shared/PrivacyInfo.xcprivacy
-      - path: ../configurator/Shared/Logging
+      - path: Sources/Shared/PrivacyInfo.xcprivacy
+      - path: Sources/Shared/Logging
         name: Logging
-      - path: ../configurator/macOS
+      - path: Sources/macOS
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.pragmatacore.showcase.mac
         DEVELOPMENT_TEAM: ""
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "-"
-        INFOPLIST_FILE: ../configurator/macOS/App/Info.plist
-        SWIFT_OBJC_BRIDGING_HEADER: ../configurator/Shared/Core/PragmataCoreDemo-Bridging-Header.h
+        INFOPLIST_FILE: Sources/macOS/App/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/Shared/Core/PragmataCoreDemo-Bridging-Header.h
         MACOSX_DEPLOYMENT_TARGET: "15.0"
         HEADER_SEARCH_PATHS:
-          - "$(SRCROOT)/../configurator/Shared/Core"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/macos-arm64_x86_64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/ios-arm64/Headers"
-          - "$(SRCROOT)/../../dist/PragmataCore.xcframework/tvos-arm64/Headers"
-          - "$(SRCROOT)/../configurator/macOS/UI"
+          - "$(SRCROOT)/Sources/Shared/Core"
+          - "$(SRCROOT)/Sources/macOS/UI"
         CLANG_CXX_LANGUAGE_STANDARD: "c++17"
         ENABLE_BITCODE: NO
         DEAD_CODE_STRIPPING: YES
@@ -210,8 +203,7 @@ targets:
         Release:
           GCC_PREPROCESSOR_DEFINITIONS: ["$(inherited)", "PRAGMATACORE_DISABLE_LOGGING=1"]
     dependencies:
-      - framework: ../../dist/PragmataCore.xcframework
-        embed: false
+      - package: PragmataCore
       - sdk: Metal.framework
       - sdk: MetalKit.framework
       - sdk: QuartzCore.framework

@@ -114,7 +114,7 @@ pc_result_t pc_material_set_base_color(pc_context_t ctx, const char* mesh,
                                         float r, float g, float b, float a);
 ```
 
-Full API reference: [`pragmata/`](apps/nautica-configurator/Shared/Vendor/include/pragmata/)
+Full API reference: headers are distributed inside `PragmataCore.xcframework` (resolved via SPM on first build).
 
 ---
 
