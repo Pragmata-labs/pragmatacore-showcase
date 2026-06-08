@@ -196,6 +196,7 @@ targets:
         HEADER_SEARCH_PATHS:
           - "$(SRCROOT)/Sources/Shared/Core"
           - "$(SRCROOT)/Sources/macOS/UI"
+        ARCHS: arm64
         CLANG_CXX_LANGUAGE_STANDARD: "c++17"
         ENABLE_BITCODE: NO
         DEAD_CODE_STRIPPING: YES

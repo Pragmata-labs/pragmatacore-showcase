@@ -49,10 +49,12 @@ Google Filament → Metal (Apple) / Vulkan (Android)
 
 | Platform | Status |
 |---|---|
-| macOS 15+ | ✅ |
+| macOS 15+ (Apple Silicon only) | ✅ |
 | iOS 17+ / iPadOS 17+ | ✅ |
 | tvOS 17+ | ✅ |
 | Android | 🔄 In progress |
+
+> **Intel Mac (x86\_64) is not supported.** The runtime has not been built or tested on Intel Macs and there are no plans to investigate or support it.
 
 ---
 
@@ -60,7 +62,7 @@ Google Filament → Metal (Apple) / Vulkan (Android)
 
 - Xcode 16+
 - macOS 15 Sequoia or later
-- Apple Silicon or Intel Mac
+- Apple Silicon Mac (Intel not supported)
 
 ---
 
