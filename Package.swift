@@ -9,7 +9,7 @@ import PackageDescription
 // ─────────────────────────────────────────────────────────────────────────────
 
 let releaseUrl = "https://github.com/Pragmata-labs/pragmatacore-showcase/releases/download/v0.1.0/PragmataCore.xcframework.zip"
-let checksum   = "REPLACE_WITH_CHECKSUM_FROM_BUILD_SCRIPT"
+let checksum   = "bde1e63d5320239e79af4c7c2f3ec4310871dfb14baf765367d1d1d774b6fe9e"
 
 let package = Package(
     name: "PragmataCore",
