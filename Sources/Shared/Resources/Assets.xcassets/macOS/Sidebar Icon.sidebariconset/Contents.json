@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "Untitled-macOS-Default-16x16@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "Untitled-macOS-Default-16x16@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
@@ -31,11 +33,13 @@
       "size" : "24x24"
     },
     {
+      "filename" : "Untitled-macOS-Default-32x32@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "Untitled-macOS-Default-32x32@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
