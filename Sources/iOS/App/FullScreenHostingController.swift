@@ -10,6 +10,7 @@ final class FullScreenHostingController<Content: View>: UIHostingController<Cont
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .black
         view.insetsLayoutMarginsFromSafeArea = false
     }
 }

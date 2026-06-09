@@ -38,6 +38,9 @@ static float macVerticalFOV() {
 }
 
 - (void)setup {
+    self.wantsLayer = YES;
+    self.layer.backgroundColor = NSColor.blackColor.CGColor;
+
     id<MTLDevice> device = MTLCreateSystemDefaultDevice();
     if (!device) {
         APP_LOG("PragmataMacView", "❌ No Metal device");

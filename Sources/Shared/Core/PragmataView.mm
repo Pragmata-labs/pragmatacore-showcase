@@ -206,10 +206,7 @@ inline float calculateVerticalFOV(float focalLengthMM, float sensorHeightMM) {
  * Sets up basic UIView appearance and layout properties.
  */
 - (void)setupAppearance {
-  self.backgroundColor = [UIColor colorWithRed:1.0f
-                                         green:1.0f
-                                          blue:1.0f
-                                         alpha:1.0f];
+  self.backgroundColor = [UIColor blackColor];
   self.clipsToBounds = YES;
   self.userInteractionEnabled = YES;
 
