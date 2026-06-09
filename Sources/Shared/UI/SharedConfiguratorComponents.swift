@@ -13,7 +13,8 @@ struct BottomConfigurationCards: View {
         if configManager.isInteriorEnabled {
             InteriorColorPicker(
                 colors: configManager.interiorColors,
-                selectedId: configManager.selectedInteriorColor
+                selectedId: configManager.selectedInteriorColor,
+                focusedCard: focusedCard
             ) { color in
                 configManager.selectedInteriorColor = color.id
                 onInteriorColorSelected?(color)
@@ -48,17 +49,17 @@ struct BottomConfigurationCards: View {
 struct InteriorColorPicker: View {
     let colors: [InteriorColor]
     let selectedId: UUID?
+    var focusedCard: FocusState<UUID?>.Binding
     let onSelect: (InteriorColor) -> Void
-    @FocusState private var focusedColor: UUID?
 
     var body: some View {
         HStack(spacing: 24) {
             ForEach(colors) { color in
-                let isFocused = focusedColor == color.id
+                let isFocused = focusedCard.wrappedValue == color.id
 #if os(tvOS)
                 colorLabel(color: color, isFocused: isFocused)
                     .focusable(true)
-                    .focused($focusedColor, equals: color.id)
+                    .focused(focusedCard, equals: color.id)
                     .onTapGesture { onSelect(color) }
                     .animation(.easeInOut(duration: AppTheme.focusDuration), value: isFocused)
                     .animation(.easeInOut(duration: AppTheme.toggleDuration), value: selectedId)
@@ -67,7 +68,7 @@ struct InteriorColorPicker: View {
                     colorLabel(color: color, isFocused: isFocused)
                 }
                 .configuratorButtonStyle()
-                .focused($focusedColor, equals: color.id)
+                .focused(focusedCard, equals: color.id)
                 .macHoverOutline(isCircle: true)
                 .animation(.easeInOut(duration: AppTheme.focusDuration), value: isFocused)
                 .animation(.easeInOut(duration: AppTheme.toggleDuration), value: selectedId)
@@ -76,14 +77,9 @@ struct InteriorColorPicker: View {
         }
 #if os(tvOS)
         .focusSection()
-        .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                focusedColor = colors.first?.id
-            }
-        }
 #endif
         .frame(height: AppTheme.cardHeight)
-        .defaultFocus($focusedColor, colors.first?.id)
+        .defaultFocus(focusedCard, colors.first?.id)
     }
 
     private func colorLabel(color: InteriorColor, isFocused: Bool) -> some View {

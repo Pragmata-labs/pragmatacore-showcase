@@ -42,6 +42,13 @@ struct TVOSBoatConfiguratorView: View {
         .onChange(of: configManager.selectedEnvironment) { _, v in onEnvironmentChanged(v) }
         .onChange(of: configManager.selectedChoices) { old, new in updateConfiguration(oldChoices: old, newChoices: new) }
         .onChange(of: focusedConfigCard) { _, id in if let id { lastFocusedCard = id } }
+        .onChange(of: configManager.isInteriorEnabled) { _, isInterior in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                focusedConfigCard = isInterior
+                    ? configManager.interiorColors.first?.id
+                    : configManager.configurations.first?.id
+            }
+        }
         .environment(configManager)
         .ignoresSafeArea()
     }
